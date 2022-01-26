@@ -12,4 +12,10 @@
 		font-weight: 500;
 		user-select: none;
 	}
+
+	.external-icons {
+		content: '';
+		display: flex;
+		justify-content: space-around;
+	}
 }
