@@ -3,9 +3,9 @@ import {ExternalIcons} from './ExternalIcons'
 
 export const Header = () => {
 	return (
-		<div className={'header'}>
+		<header className={'header'}>
 			<span className={'name'}>Breno Prata</span>
 			<ExternalIcons />
-		</div>
+		</header>
 	)
 }

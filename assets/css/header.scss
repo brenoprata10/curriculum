@@ -2,7 +2,7 @@
 
 .header {
 	background-color: $base-background-color;
-	height: 4em;
+	height: $base-header-height;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
