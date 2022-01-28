@@ -11,7 +11,7 @@ const App = () => {
 				<Header />
 			</header>
 			<span>Welcome to My Curriculum!</span>
-			<Particles width={'60'} height={'60'} id='tsparticles' options={PARTICLES_OPTIONS as unknown as any} />
+			<Particles width={'1'} height={'1'} id='tsparticles' options={PARTICLES_OPTIONS as unknown as any} />
 		</div>
 	)
 }
