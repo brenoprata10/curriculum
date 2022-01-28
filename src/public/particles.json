@@ -2,14 +2,14 @@
 	"fpsLimit": 60,
 	"particles": {
 		"number": {
-			"value": 60,
+			"value": 50,
 			"density": {
 				"enable": true,
 				"value_area": 800
 			}
 		},
 		"color": {
-			"value": "#ffffff"
+			"value": "#c4c2c2"
 		},
 		"shape": {
 			"type": "circle",
@@ -26,16 +26,6 @@
 				"height": 100
 			}
 		},
-		"opacity": {
-			"value": 0.5,
-			"random": false,
-			"anim": {
-				"enable": false,
-				"speed": 1,
-				"opacity_min": 0.1,
-				"sync": false
-			}
-		},
 		"size": {
 			"value": 3,
 			"random": true,
@@ -49,8 +39,7 @@
 		"line_linked": {
 			"enable": true,
 			"distance": 100,
-			"color": "#ffffff",
-			"opacity": 0.4,
+			"color": "#c4c2c2",
 			"width": 1
 		},
 		"move": {
@@ -65,22 +54,6 @@
 				"enable": false,
 				"rotateX": 600,
 				"rotateY": 1200
-			}
-		}
-	},
-	"interactivity": {
-		"detect_on": "canvas",
-		"events": {
-			"onhover": {
-				"enable": true,
-				"mode": "repulse"
-			},
-			"resize": true
-		},
-		"modes": {
-			"repulse": {
-				"distance": 100,
-				"duration": 0.4
 			}
 		}
 	},
