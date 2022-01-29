@@ -1,4 +1,3 @@
-import React from 'react'
 import './App.scss'
 import {Header} from './components/Header'
 import Particles from 'react-tsparticles'
@@ -10,7 +9,7 @@ const App = () => {
 		<>
 			<Header />
 			<Main />
-			<Particles width={'1'} height={'1'} id='tsparticles' options={PARTICLES_OPTIONS as unknown as any} />
+			<Particles width={'.1'} height={'.1'} id='tsparticles' options={PARTICLES_OPTIONS as unknown as any} />
 		</>
 	)
 }

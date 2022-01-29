@@ -1,4 +1,3 @@
-import React from 'react'
 import {ExternalIcons} from './ExternalIcons'
 
 export const Header = () => {
