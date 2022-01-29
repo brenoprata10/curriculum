@@ -4,6 +4,8 @@ const WELCOME_PHRASE = 'Welcome to my Curriculum!'
 
 export const Welcome = () => {
 	const [phase, setPhase] = useState('')
+	const [showMouse, setShowMouse] = useState(false)
+	const isTypingAnimationCompleted = phase === WELCOME_PHRASE
 
 	useEffect(() => {
 		const individualLetters = WELCOME_PHRASE.match(new RegExp('\\w|\\s|!', 'mg'))
@@ -14,11 +16,23 @@ export const Welcome = () => {
 		})
 	}, [])
 
+	useEffect(() => {
+		if (isTypingAnimationCompleted) {
+			setTimeout(() => {
+				setShowMouse(true)
+			}, 2000)
+		}
+	}, [isTypingAnimationCompleted])
+
 	return (
 		<div className={'welcome'}>
 			<div className={'welcome-wrapper'}>
 				<h3>{phase}</h3>
-				<div className={'mouse'} />
+				{showMouse && (
+					<div className={'mouse-wrapper'}>
+						<div className={'icon'} />
+					</div>
+				)}
 			</div>
 		</div>
 	)

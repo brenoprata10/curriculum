@@ -10,6 +10,8 @@
 	font-size: 2.5em !important;
 
 	&-wrapper {
+		position: relative;
+
 		h3 {
 			position: relative;
 			user-select: none;
@@ -24,40 +26,53 @@
 			}
 		}
 
-		.mouse {
+		.mouse-wrapper {
 			$mouse-width: 0.65em;
-
+			animation: fade-in 0.5s;
 			position: absolute;
-			content: '';
-			width: $mouse-width;
-			height: 1.1em;
-			border: 0.05em solid white;
-			top: 0.5em;
+			top: 3.5em;
 			left: calc(50% - $mouse-width);
-			border-radius: 25px;
-			position: relative;
-			animation: move-mouse 1s infinite;
 
-			&::before {
-				$scroll-wheel-width: 0.1em;
-				$border-width: 0.05em;
+			.icon {
 				content: '';
-				position: absolute;
-				top: 0.2em;
-				left: calc(50% - ($scroll-wheel-width / 2 + $border-width));
+				width: $mouse-width;
+				height: 1.1em;
+				border: 0.05em solid white;
 				border-radius: 25px;
-				width: $scroll-wheel-width;
-				height: 0.2em;
-				border: $border-width solid white;
+				animation: move-mouse 1s infinite;
+
+				&::before {
+					$scroll-wheel-width: 0.1em;
+					$border-width: 0.05em;
+					content: '';
+					position: absolute;
+					top: 0.2em;
+					left: calc(50% - ($scroll-wheel-width / 2 + $border-width));
+					border-radius: 25px;
+					width: $scroll-wheel-width;
+					height: 0.2em;
+					border: $border-width solid white;
+				}
+			}
+		}
+
+		@keyframes fade-in {
+			from {
+				opacity: 0;
+			}
+			to {
+				opacity: 1;
 			}
 		}
 
 		@keyframes move-mouse {
 			0%,
 			100% {
+				opacity: 0.8;
 				transform: translateY(0);
 			}
 			50% {
+				opacity: 1;
 				transform: translateY(0.5em);
 			}
 		}
