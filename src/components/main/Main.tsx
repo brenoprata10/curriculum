@@ -1,5 +1,10 @@
 import {Welcome} from './Welcome'
 
 export const Main = () => {
-	return <Welcome />
+	return (
+		<>
+			<Welcome />
+			<span style={{height: 400}}>sldkjasdlkasjldkjsa</span>
+		</>
+	)
 }

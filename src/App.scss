@@ -6,15 +6,17 @@
 html {
 	height: 100%;
 	user-select: none;
+	background: $base-background-gradient-start;
 }
 
 #root {
 	height: 100%;
+	background: $background-gradient;
 }
 
 body {
+	overflow-x: hidden;
 	height: 100%;
-	background: linear-gradient(90deg, rgba(47, 11, 85, 1) 0%, rgba(42, 64, 117, 1) 47%, rgba(47, 11, 85, 1) 100%);
 	margin: 0;
 	color: white;
 	font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;

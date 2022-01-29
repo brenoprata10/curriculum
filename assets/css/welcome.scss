@@ -28,16 +28,17 @@
 
 		.mouse-wrapper {
 			$mouse-width: 0.65em;
+			$mouse-border: 0.05em;
 			animation: fade-in 0.5s;
 			position: absolute;
 			top: 3.5em;
-			left: calc(50% - $mouse-width);
+			left: calc(50% - ($mouse-width / 2 + $mouse-border));
 
 			.icon {
 				content: '';
 				width: $mouse-width;
 				height: 1.1em;
-				border: 0.05em solid white;
+				border: $mouse-border solid white;
 				border-radius: 25px;
 				animation: move-mouse 1s infinite;
 

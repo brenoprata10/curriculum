@@ -1,1 +1,9 @@
 $base-header-height: 4em;
+$base-background-gradient-start: rgba(47, 11, 85, 1);
+$base-background-gradient-middle: rgba(42, 64, 117, 1) 47%;
+$background-gradient: linear-gradient(
+	90deg,
+	$base-background-gradient-start 0%,
+	$base-background-gradient-middle 47%,
+	$base-background-gradient-start 100%
+);
