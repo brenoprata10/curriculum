@@ -4,6 +4,7 @@ import './index.css'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
 import {library} from '@fortawesome/fontawesome-svg-core'
+import {fas} from '@fortawesome/free-solid-svg-icons'
 import {fab} from '@fortawesome/free-brands-svg-icons'
 
 ReactDOM.render(
@@ -19,4 +20,4 @@ ReactDOM.render(
 reportWebVitals()
 
 // Adding brands to fontawesome
-library.add(fab)
+library.add(fab, fas)

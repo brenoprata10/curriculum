@@ -8,7 +8,9 @@ const App = () => {
 	return (
 		<>
 			<Header />
-			<Main />
+			<div className={'content'}>
+				<Main />
+			</div>
 			<Particles width={'.1'} height={'.1'} id='tsparticles' options={PARTICLES_OPTIONS as unknown as any} />
 		</>
 	)

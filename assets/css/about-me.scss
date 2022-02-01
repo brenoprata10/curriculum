@@ -1,0 +1,79 @@
+.about-me {
+	margin-top: 17em;
+
+	.content {
+		margin-top: 5em;
+		display: flex;
+		justify-content: space-around;
+
+		.description {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-evenly;
+			font-size: 1.2em;
+			max-width: 65%;
+
+			span {
+				text-align: justify;
+			}
+		}
+
+		.image {
+			$image-size: 12.5em;
+
+			width: $image-size;
+			height: $image-size;
+			background-image: url('../images/profile-picture.png');
+			background-size: cover;
+			position: relative;
+
+			@mixin trailing-star-path {
+				content: '';
+				position: absolute;
+				border-radius: 10px;
+				transform: rotate(48deg);
+				background-color: rgba(255, 255, 255, 0.5);
+			}
+
+			.star-path-1 {
+				top: -3em;
+				left: 6em;
+				height: 30px;
+				width: 20px;
+				@include trailing-star-path;
+			}
+
+			.star-path-2 {
+				top: -6em;
+				left: 11em;
+				height: 100px;
+				width: 20px;
+				@include trailing-star-path;
+			}
+
+			.star-path-3 {
+				top: -7em;
+				left: 15em;
+				height: 160px;
+				width: 20px;
+				@include trailing-star-path;
+			}
+
+			.star-path-4 {
+				top: -0.8em;
+				left: 15em;
+				height: 100px;
+				width: 20px;
+				@include trailing-star-path;
+			}
+
+			.star-path-5 {
+				top: 6em;
+				left: 14em;
+				height: 30px;
+				width: 20px;
+				@include trailing-star-path;
+			}
+		}
+	}
+}

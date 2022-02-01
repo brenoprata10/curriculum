@@ -1,7 +1,10 @@
 @use '../assets/css/header.scss';
 
 @import '../assets/css/variables.scss';
+@import '../assets/css/title.scss';
+
 @import '../assets/css/welcome.scss';
+@import '../assets/css/about-me.scss';
 
 html {
 	height: 100%;
@@ -10,8 +13,20 @@ html {
 }
 
 #root {
+	overflow-y: scroll;
 	height: 100%;
 	background: $background-gradient;
+}
+
+.content {
+	display: flex;
+	justify-content: center;
+	height: 100%;
+}
+
+.main {
+	max-width: 1920px;
+	z-index: 1;
 }
 
 body {
