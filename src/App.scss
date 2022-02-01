@@ -15,7 +15,6 @@ html {
 #root {
 	overflow-y: scroll;
 	height: 100%;
-	background: $background-gradient;
 }
 
 .content {
@@ -30,6 +29,7 @@ html {
 }
 
 body {
+	background: $background-gradient;
 	overflow-x: hidden;
 	height: 100%;
 	margin: 0;
