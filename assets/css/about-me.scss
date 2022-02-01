@@ -16,10 +16,17 @@
 			span {
 				text-align: justify;
 			}
+
+			.infinity {
+				background: -webkit-linear-gradient(45deg, #68ff8c, #ffec6b 80%);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+			}
 		}
 
 		.image {
 			$image-size: 12.5em;
+			$rotation: rotate(48deg);
 
 			width: $image-size;
 			height: $image-size;
@@ -31,48 +38,61 @@
 				content: '';
 				position: absolute;
 				border-radius: 10px;
-				transform: rotate(48deg);
-				background-color: rgba(255, 255, 255, 0.5);
+				transform: $rotation;
+				transform-origin: bottom;
+				background-color: rgba(255, 255, 255, 0.3);
 			}
 
 			.star-path-1 {
-				top: -3em;
-				left: 6em;
-				height: 30px;
+				top: -7em;
+				left: 9em;
+				height: 100px;
 				width: 20px;
 				@include trailing-star-path;
+				animation: trailing-animation 4s infinite ease-in-out;
 			}
 
 			.star-path-2 {
-				top: -6em;
-				left: 11em;
-				height: 100px;
-				width: 20px;
-				@include trailing-star-path;
-			}
-
-			.star-path-3 {
-				top: -7em;
-				left: 15em;
+				top: -9em;
+				left: 12em;
 				height: 160px;
 				width: 20px;
 				@include trailing-star-path;
+				animation: trailing-animation-2 6s infinite ease-in-out;
 			}
 
-			.star-path-4 {
-				top: -0.8em;
-				left: 15em;
+			.star-path-3 {
+				top: -1.8em;
+				left: 13em;
 				height: 100px;
 				width: 20px;
 				@include trailing-star-path;
+				animation: trailing-animation 4s infinite ease-in-out;
 			}
 
-			.star-path-5 {
-				top: 6em;
-				left: 14em;
-				height: 30px;
-				width: 20px;
-				@include trailing-star-path;
+			@keyframes trailing-animation {
+				0%,
+				50%,
+				100% {
+					transform: $rotation scaleY(1);
+				}
+				25%,
+				75% {
+					transform: $rotation scaleY(0.9);
+					border-radius: 20px;
+				}
+			}
+			@keyframes trailing-animation-2 {
+				0%,
+				50%,
+				100% {
+					transform: $rotation scaleY(1);
+				}
+				25%,
+				75% {
+					transform: $rotation scaleY(0.8);
+					border-radius: 20px;
+				}
 			}
 		}
 	}

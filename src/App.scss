@@ -28,6 +28,12 @@ html {
 	z-index: 1;
 }
 
+@media (min-width: 1500px) {
+	.main {
+		max-width: 1500px;
+	}
+}
+
 body {
 	background: $background-gradient;
 	overflow-x: hidden;
