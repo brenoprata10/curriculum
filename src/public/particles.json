@@ -42,7 +42,7 @@
 			"direction": "none",
 			"random": false,
 			"straight": true,
-			"out_mode": "out",
+			"out_mode": "bounce",
 			"bounce": false
 		}
 	},
