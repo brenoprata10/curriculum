@@ -1,3 +1,5 @@
+@import './variables.scss';
+
 .about-me {
 	margin-top: 17em;
 
@@ -6,6 +8,10 @@
 		display: flex;
 		justify-content: space-around;
 
+		@media (max-width: $responsive-max-width-sm) {
+			@include about-me-content-sm;
+		}
+
 		.description {
 			display: flex;
 			flex-direction: column;
@@ -13,6 +19,9 @@
 			font-size: 1.2em;
 			max-width: 65%;
 
+			@media (max-width: $responsive-max-width-sm) {
+				@include about-me-description-sm;
+			}
 			span {
 				text-align: justify;
 			}

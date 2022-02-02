@@ -1,3 +1,4 @@
+// Background
 $base-header-height: 4em;
 $base-background-gradient-start: rgba(47, 11, 85, 1);
 $base-background-gradient-middle: rgba(42, 64, 117, 1) 47%;
@@ -8,6 +9,26 @@ $background-gradient: linear-gradient(
 	$base-background-gradient-start 100%
 );
 
+// Responsive
+$responsive-max-width-sm: 646px;
+
 // Welcome
 $welcome-font-size: 2.5em;
 $welcome-font-size-sm: 1.8em;
+
+//About me
+@mixin about-me-description-sm {
+	font-size: 1.1em;
+	max-width: 80%;
+	margin-top: 2em;
+	min-height: 12em;
+}
+@mixin about-me-content-sm {
+	margin-top: 7em;
+	flex-direction: column-reverse;
+	align-items: center;
+}
+
+// Utils
+$title-font-size: 2em;
+$title-font-size-sm: 1.7em;

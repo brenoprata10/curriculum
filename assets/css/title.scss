@@ -1,15 +1,17 @@
+@import './variables.scss';
+
 .title {
-	font-size: 2em;
+	font-size: $title-font-size;
 	font-weight: bold;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 
-	span {
-		margin-left: 0.5em;
+	@media (max-width: $responsive-max-width-sm) {
+		font-size: $title-font-size-sm;
 	}
 
-	@media (max-width: 646px) {
-		font-size: 1.7em;
+	span {
+		margin-left: 0.5em;
 	}
 }
