@@ -7,7 +7,11 @@
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
-	font-size: 2.5em !important;
+	font-size: $welcome-font-size;
+
+	@media (max-width: 646px) {
+		font-size: $welcome-font-size-sm;
+	}
 
 	&-wrapper {
 		position: relative;
@@ -43,16 +47,15 @@
 				animation: move-mouse 1s infinite;
 
 				&::before {
-					$scroll-wheel-width: 0.1em;
-					$border-width: 0.05em;
+					$scroll-wheel-width: 0.09em;
 					content: '';
 					position: absolute;
 					top: 0.2em;
-					left: calc(50% - ($scroll-wheel-width / 2 + $border-width));
+					left: calc(50% - ($scroll-wheel-width / 2 + $mouse-border));
 					border-radius: 25px;
 					width: $scroll-wheel-width;
 					height: 0.2em;
-					border: $border-width solid white;
+					border: $mouse-border solid white;
 				}
 			}
 		}

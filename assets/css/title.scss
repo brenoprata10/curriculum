@@ -8,4 +8,8 @@
 	span {
 		margin-left: 0.5em;
 	}
+
+	@media (max-width: 646px) {
+		font-size: 1.7em;
+	}
 }
