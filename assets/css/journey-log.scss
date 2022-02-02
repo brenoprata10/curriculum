@@ -1,0 +1,10 @@
+@import './variables.scss';
+@import './content-section.scss';
+
+.journey-log {
+	margin-top: 30em;
+
+	.content {
+		@include content-section;
+	}
+}
