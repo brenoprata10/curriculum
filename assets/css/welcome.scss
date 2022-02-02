@@ -7,10 +7,10 @@
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
-	font-size: $welcome-font-size;
+	font-size: $welcome-font-size !important;
 
 	@media (max-width: $responsive-max-width-sm) {
-		font-size: $welcome-font-size-sm;
+		font-size: $welcome-font-size-sm !important;
 	}
 
 	&-wrapper {
