@@ -10,7 +10,7 @@
 		.log-grid {
 			$planet-size: 12em;
 			display: grid;
-			grid-template-columns: repeat(auto-fill, minmax($planet-size, 1fr));
+			grid-template-columns: repeat(auto-fit, minmax($planet-size, 1fr));
 			gap: 3em;
 			width: 100%;
 
@@ -23,8 +23,6 @@
 				font-weight: bold;
 				min-height: $planet-size;
 				min-width: $planet-size;
-				position: relative;
-				-webkit-transform-style: preserve-3d;
 
 				&-name {
 					font-size: 1.3em;
@@ -42,25 +40,33 @@
 					font-size: 1em;
 				}
 
-				img {
-					$size: 8em;
+				&-image {
+					-webkit-transform-style: preserve-3d;
+					position: relative;
 
-					align-self: center;
-					width: $size;
-					height: $size;
+					img {
+						$size: 8em;
+
+						align-self: center;
+						width: $size;
+						height: $size;
+					}
 				}
 
 				.ring {
+					$ring-size: $planet-size - 2em;
 					$start-rotation: 0deg;
 					$end-rotation: 2700deg;
+					$top-position: -1.15em;
+					$left-position: calc(50% - $ring-size / 1.9);
 
 					content: '';
 					position: absolute;
-					top: -1.1em;
-					left: 1.4em;
-					width: $planet-size - 2em;
-					height: $planet-size - 2em;
-					border: 2px solid white;
+					top: $top-position;
+					left: $left-position;
+					width: $ring-size;
+					height: $ring-size;
+					border: 3px solid white;
 					border-radius: 50%;
 					transform: rotate3d(1, 1, 1, 200deg);
 
