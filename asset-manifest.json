@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.2a6b0a14.css",
-    "main.js": "./static/js/main.c51e52d3.js",
+    "main.css": "./static/css/main.cd85cce7.css",
+    "main.js": "./static/js/main.df89cd88.js",
     "static/js/787.d7d88cf9.chunk.js": "./static/js/787.d7d88cf9.chunk.js",
     "static/media/profile-picture.png": "./static/media/profile-picture.7040023d40c2f4ab1038.png",
     "static/media/rh-logo.png": "./static/media/rh-logo.b40822119a38c257dcad.png",
@@ -9,12 +9,12 @@
     "static/media/basis-logo.png": "./static/media/basis-logo.ef641ab2deaa0683b7cd.png",
     "static/media/polisys-logo.png": "./static/media/polisys-logo.4e991572a096dfec3409.png",
     "index.html": "./index.html",
-    "main.2a6b0a14.css.map": "./static/css/main.2a6b0a14.css.map",
-    "main.c51e52d3.js.map": "./static/js/main.c51e52d3.js.map",
+    "main.cd85cce7.css.map": "./static/css/main.cd85cce7.css.map",
+    "main.df89cd88.js.map": "./static/js/main.df89cd88.js.map",
     "787.d7d88cf9.chunk.js.map": "./static/js/787.d7d88cf9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a6b0a14.css",
-    "static/js/main.c51e52d3.js"
+    "static/css/main.cd85cce7.css",
+    "static/js/main.df89cd88.js"
   ]
 }
