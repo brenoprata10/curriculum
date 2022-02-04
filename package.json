@@ -2,7 +2,7 @@
 	"name": "curriculum",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": ".",
+	"homepage": "https://brenoprata10.github.io",
 	"dependencies": {
 		"@babel/core": "^7.16.0",
 		"@emotion/react": "^11.7.1",
