@@ -12,7 +12,7 @@ export interface IJourneyLogItemProps {
 	ringConfig?: CSSProperties
 }
 
-const IMAGE_PATH = `${process.env.PUBLIC_URL ? `/${process.env.PUBLIC_URL}` : ''}/images/companies`
+const IMAGE_PATH = `/images/companies`
 
 const JOURNEY_LOG: IJourneyLogItemProps[] = [
 	{
