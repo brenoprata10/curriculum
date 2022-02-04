@@ -51,6 +51,9 @@
 				}
 
 				.ring {
+					$start-rotation: 0deg;
+					$end-rotation: 2700deg;
+
 					content: '';
 					position: absolute;
 					top: -1.1em;
@@ -66,10 +69,10 @@
 						@keyframes planet-rings-rh {
 							0%,
 							100% {
-								transform: rotate3d(1, 1, 1, 180deg);
+								transform: rotate3d(1, 1, 1, $start-rotation);
 							}
 							50% {
-								transform: rotate3d(1, 1, 1, 2700deg);
+								transform: rotate3d(1, 1, 1, $end-rotation);
 							}
 						}
 					}
@@ -79,10 +82,10 @@
 						@keyframes planet-rings-basis {
 							0%,
 							100% {
-								transform: rotate3d(3, 2, 3, 180deg);
+								transform: rotate3d(5, 10, 1, $start-rotation);
 							}
 							50% {
-								transform: rotate3d(3, 2, 3, 2700deg);
+								transform: rotate3d(5, 10, 1, $end-rotation);
 							}
 						}
 					}
@@ -92,10 +95,10 @@
 						@keyframes planet-rings-indra {
 							0%,
 							100% {
-								transform: rotate3d(10, 3, 3, 180deg);
+								transform: rotate3d(4, 10, 7, $start-rotation);
 							}
 							50% {
-								transform: rotate3d(10, 3, 3, 2700deg);
+								transform: rotate3d(4, 10, 7, $end-rotation);
 							}
 						}
 					}
@@ -105,10 +108,10 @@
 						@keyframes planet-rings-polisys {
 							0%,
 							100% {
-								transform: rotate3d(2, 2, 5, 180deg);
+								transform: rotate3d(2, 2, 5, $start-rotation);
 							}
 							50% {
-								transform: rotate3d(2, 2, 5, 2700deg);
+								transform: rotate3d(2, 2, 5, $end-rotation);
 							}
 						}
 					}
