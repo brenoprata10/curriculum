@@ -8,8 +8,9 @@
 		@include content-section;
 
 		.log-grid {
+			$planet-size: 12em;
 			display: grid;
-			grid-template-columns: repeat(auto-fill, minmax(12em, 1fr));
+			grid-template-columns: repeat(auto-fill, minmax($planet-size, 1fr));
 			gap: 3em;
 			width: 100%;
 
@@ -20,19 +21,24 @@
 
 				text-align: center;
 				font-weight: bold;
-				min-height: 12em;
-				min-width: 12em;
+				min-height: $planet-size;
+				min-width: $planet-size;
+				position: relative;
+				-webkit-transform-style: preserve-3d;
 
 				&-name {
 					font-size: 1.3em;
 					font-weight: bold;
+					margin-top: 0.7em;
 				}
 
 				&-role {
+					margin-top: 0.5em;
 					font-size: 1.1em;
 				}
 
 				&-date {
+					margin-top: 0.5em;
 					font-size: 1em;
 				}
 
@@ -42,6 +48,70 @@
 					align-self: center;
 					width: $size;
 					height: $size;
+				}
+
+				.ring {
+					content: '';
+					position: absolute;
+					top: -1.1em;
+					left: 0.9em;
+					width: $planet-size - 2em;
+					height: $planet-size - 2em;
+					border: 2px solid white;
+					border-radius: 50%;
+					transform: rotate3d(1, 1, 1, 200deg);
+
+					&-roihunter {
+						animation: planet-rings-rh 400s infinite linear;
+						@keyframes planet-rings-rh {
+							0%,
+							100% {
+								transform: rotate3d(1, 1, 1, 180deg);
+							}
+							50% {
+								transform: rotate3d(1, 1, 1, 2700deg);
+							}
+						}
+					}
+
+					&-basis {
+						animation: planet-rings-basis 400s infinite linear;
+						@keyframes planet-rings-basis {
+							0%,
+							100% {
+								transform: rotate3d(3, 2, 3, 180deg);
+							}
+							50% {
+								transform: rotate3d(3, 2, 3, 2700deg);
+							}
+						}
+					}
+
+					&-indra {
+						animation: planet-rings-indra 400s infinite linear;
+						@keyframes planet-rings-indra {
+							0%,
+							100% {
+								transform: rotate3d(10, 3, 3, 180deg);
+							}
+							50% {
+								transform: rotate3d(10, 3, 3, 2700deg);
+							}
+						}
+					}
+
+					&-polisys {
+						animation: planet-rings-polisys 400s infinite linear;
+						@keyframes planet-rings-polisys {
+							0%,
+							100% {
+								transform: rotate3d(2, 2, 5, 180deg);
+							}
+							50% {
+								transform: rotate3d(2, 2, 5, 2700deg);
+							}
+						}
+					}
 				}
 			}
 		}
