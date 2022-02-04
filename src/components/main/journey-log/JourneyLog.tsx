@@ -2,6 +2,10 @@ import {Title} from '../../utils/Title'
 import {faGlobeAmericas} from '@fortawesome/free-solid-svg-icons'
 import {JourneyLogItem} from './JourneyLogItem'
 import {CSSProperties} from 'react'
+import RH_LOGO from '../../../public/images/companies/rh-logo.png'
+import BASIS_LOGO from '../../../public/images/companies/basis-logo.png'
+import INDRA_LOGO from '../../../public/images/companies/indra-logo.png'
+import POLISYS_LOGO from '../../../public/images/companies/polisys-logo.png'
 
 export interface IJourneyLogItemProps {
 	id: string
@@ -12,22 +16,20 @@ export interface IJourneyLogItemProps {
 	ringConfig?: CSSProperties
 }
 
-const IMAGE_PATH = `/images/companies`
-
 const JOURNEY_LOG: IJourneyLogItemProps[] = [
 	{
 		id: 'roihunter',
 		name: 'ROI Hunter',
 		role: 'Front-end Dev',
 		date: '🚀 Docked - April 2019',
-		image: `${IMAGE_PATH}/rh-logo.png`,
+		image: RH_LOGO,
 	},
 	{
 		id: 'basis',
 		name: 'Basis',
 		role: 'Full-Stack Dev',
 		date: 'January 2019 - July 2017',
-		image: `${IMAGE_PATH}/basis-logo.png`,
+		image: BASIS_LOGO,
 		ringConfig: {borderColor: '#da8030'},
 	},
 	{
@@ -35,7 +37,7 @@ const JOURNEY_LOG: IJourneyLogItemProps[] = [
 		name: 'Indra',
 		role: 'Trainee Dev',
 		date: 'July 2017 - April 2017',
-		image: `${IMAGE_PATH}/indra-logo.png`,
+		image: INDRA_LOGO,
 		ringConfig: {borderColor: '#149ec7'},
 	},
 	{
@@ -43,7 +45,7 @@ const JOURNEY_LOG: IJourneyLogItemProps[] = [
 		name: 'Polisys',
 		role: 'Intern Dev',
 		date: 'April 2017 - March 2016',
-		image: `${IMAGE_PATH}/polisys-logo.png`,
+		image: POLISYS_LOGO,
 		ringConfig: {borderColor: '#9e9e9e'},
 	},
 ]
