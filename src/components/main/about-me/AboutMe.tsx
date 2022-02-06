@@ -1,14 +1,11 @@
-import {Title} from '../../utils/Title'
 import {faUserAstronaut} from '@fortawesome/free-solid-svg-icons'
 import {AboutMeDescription} from './AboutMeDescription'
 import {AboutMeImage} from './AboutMeImage'
+import {Section} from '../../utils/Section'
 
 export const AboutMe = () => (
-	<div className={'about-me'}>
-		<Title name={'About me'} icon={faUserAstronaut} />
-		<div className={'content'}>
-			<AboutMeDescription />
-			<AboutMeImage />
-		</div>
-	</div>
+	<Section wrapperClassName={'about-me'} title={'About me'} icon={faUserAstronaut}>
+		<AboutMeDescription />
+		<AboutMeImage />
+	</Section>
 )

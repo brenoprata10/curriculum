@@ -1,11 +1,9 @@
 @import './variables.scss';
-@import './content-section.scss';
 
 .about-me {
 	margin-top: 17em;
 
-	.content {
-		@include content-section;
+	&-content {
 		display: flex;
 		justify-content: space-around;
 

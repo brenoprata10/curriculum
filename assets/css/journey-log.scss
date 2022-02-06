@@ -1,12 +1,9 @@
 @import './variables.scss';
-@import './content-section.scss';
 
 .journey-log {
-	margin-top: 30em;
+	margin-top: $section-margin-top;
 
-	.content {
-		@include content-section;
-
+	&-content {
 		.log-grid {
 			$planet-size: 12em;
 			display: grid;

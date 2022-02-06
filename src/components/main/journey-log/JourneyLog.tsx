@@ -1,4 +1,3 @@
-import {Title} from '../../utils/Title'
 import {faGlobeAmericas} from '@fortawesome/free-solid-svg-icons'
 import {JourneyLogItem} from './JourneyLogItem'
 import {CSSProperties} from 'react'
@@ -6,6 +5,7 @@ import RH_LOGO from '../../../public/images/companies/rh-logo.png'
 import BASIS_LOGO from '../../../public/images/companies/basis-logo.png'
 import INDRA_LOGO from '../../../public/images/companies/indra-logo.png'
 import POLISYS_LOGO from '../../../public/images/companies/polisys-logo.png'
+import {Section} from '../../utils/Section'
 
 export interface IJourneyLogItemProps {
 	id: string
@@ -52,15 +52,12 @@ const JOURNEY_LOG: IJourneyLogItemProps[] = [
 
 export const JourneyLog = () => {
 	return (
-		<div className={'journey-log'}>
-			<Title name={'Journey Log'} icon={faGlobeAmericas} />
-			<div className={'content'}>
-				<div className={'log-grid'}>
-					{JOURNEY_LOG.map((logProps) => (
-						<JourneyLogItem {...logProps} />
-					))}
-				</div>
+		<Section wrapperClassName={'journey-log'} title={'Journey Log'} icon={faGlobeAmericas}>
+			<div className={'log-grid'}>
+				{JOURNEY_LOG.map((logProps) => (
+					<JourneyLogItem {...logProps} />
+				))}
 			</div>
-		</div>
+		</Section>
 	)
 }
