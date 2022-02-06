@@ -55,7 +55,7 @@ export const JourneyLog = () => {
 		<Section wrapperClassName={'journey-log'} title={'Journey Log'} icon={faGlobeAmericas}>
 			<div className={'log-grid'}>
 				{JOURNEY_LOG.map((logProps) => (
-					<JourneyLogItem {...logProps} />
+					<JourneyLogItem key={`${logProps.id}-log-item`} {...logProps} />
 				))}
 			</div>
 		</Section>

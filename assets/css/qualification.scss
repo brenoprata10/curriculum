@@ -4,5 +4,14 @@
 	margin-top: $section-margin-top;
 
 	&-content {
+		.section {
+			font-size: 1.3em;
+
+			.badges-grid {
+				font-size: 0.9em;
+				display: grid;
+				grid-template-columns: repeat(auto-fill, minmax(12em, 1fr));
+			}
+		}
 	}
 }
