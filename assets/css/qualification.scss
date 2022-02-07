@@ -5,12 +5,33 @@
 
 	&-content {
 		.section {
+			margin-top: 2em;
 			font-size: 1.3em;
 
 			.badges-grid {
+				$badge-size: 7em;
+
+				margin-top: 2em;
 				font-size: 0.9em;
 				display: grid;
-				grid-template-columns: repeat(auto-fill, minmax(12em, 1fr));
+				grid-template-columns: repeat(auto-fill, minmax($badge-size, 1fr));
+				gap: 4em;
+
+				&-item {
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+
+					img {
+						width: $badge-size;
+						height: $badge-size;
+					}
+
+					span {
+						margin-top: 1em;
+					}
+				}
 			}
 		}
 	}

@@ -8,10 +8,9 @@ export const QualificationSection = ({title, badges}: {title: string; badges: IB
 		<b>{title}</b>
 		<div className={'badges-grid'}>
 			{badges.map(({path, name}) => (
-				<div key={`${name}-badge`}>
-					<span>
-						{name} - {path}
-					</span>
+				<div key={`${name}-badge`} className={'badges-grid-item'}>
+					<img src={path} />
+					<span>{name}</span>
 				</div>
 			))}
 		</div>
