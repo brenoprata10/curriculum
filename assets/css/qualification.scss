@@ -3,7 +3,17 @@
 .qualification {
 	margin-top: $section-margin-top;
 
+	@media (max-width: $responsive-max-width-sm) {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
 	&-content {
+		@media (max-width: $responsive-max-width-sm) {
+			width: 90%;
+		}
+
 		.section {
 			$section-spacing: 2em;
 
