@@ -5,7 +5,11 @@
 
 	&-content {
 		.section {
-			margin-top: 2em;
+			$section-spacing: 2em;
+
+			margin-top: $section-spacing;
+			padding-bottom: $section-spacing;
+			border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 			font-size: 1.3em;
 
 			.badges-grid {

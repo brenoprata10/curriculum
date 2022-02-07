@@ -5,7 +5,7 @@ export interface IBadge {
 
 export const QualificationSection = ({title, badges}: {title: string; badges: IBadge[]}) => (
 	<div className={'section'}>
-		<b>{title}</b>
+		<b>{title}:</b>
 		<div className={'badges-grid'}>
 			{badges.map(({path, name}) => (
 				<div key={`${name}-badge`} className={'badges-grid-item'}>
