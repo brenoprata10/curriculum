@@ -1,20 +1,39 @@
 {
   "files": {
-    "main.css": "./static/css/main.3c458cf6.css",
-    "main.js": "./static/js/main.90136b53.js",
+    "main.css": "./static/css/main.c26fdc30.css",
+    "main.js": "./static/js/main.859e0244.js",
     "static/js/787.d7d88cf9.chunk.js": "./static/js/787.d7d88cf9.chunk.js",
     "static/media/profile-picture.png": "./static/media/profile-picture.7040023d40c2f4ab1038.png",
+    "static/media/postgres-badge.svg": "./static/media/postgres-badge.b7ea2f05ec92c4eacb40b7271a26d3ac.svg",
+    "static/media/react-badge.svg": "./static/media/react-badge.3e9e246cb106a3fded464c2739c64aac.svg",
     "static/media/rh-logo.png": "./static/media/rh-logo.b40822119a38c257dcad.png",
+    "static/media/java-badge.svg": "./static/media/java-badge.8e1b61fe45b82f4152455422cf7eee3f.svg",
+    "static/media/html5-badge.svg": "./static/media/html5-badge.2840603257fd16807aba263085e8b39b.svg",
     "static/media/indra-logo.png": "./static/media/indra-logo.ef142f02f960919bd5b8.png",
+    "static/media/nodejs-badge.svg": "./static/media/nodejs-badge.b5323004d99cbaf7667395aaf988194d.svg",
+    "static/media/mysql-badge.svg": "./static/media/mysql-badge.f7459084c9b250df878c8c216658fa96.svg",
     "static/media/basis-logo.png": "./static/media/basis-logo.ef641ab2deaa0683b7cd.png",
     "static/media/polisys-logo.png": "./static/media/polisys-logo.4e991572a096dfec3409.png",
+    "static/media/angular-badge.svg": "./static/media/angular-badge.5dd9dff26650ea93d8257ebc3efe3d6c.svg",
+    "static/media/css3-badge.svg": "./static/media/css3-badge.7515bfed7eaddcbeef2ce71c6b711798.svg",
+    "static/media/adobe-xd.svg": "./static/media/adobe-xd.f85fa2945a09c8b794f6fe218ff15ee2.svg",
+    "static/media/springboot-badge.svg": "./static/media/springboot-badge.41200f927f00ec649dfcf087ab5ab0f9.svg",
+    "static/media/swift-badge.svg": "./static/media/swift-badge.7ea22c1ec1b69e72deaff94b75345258.svg",
+    "static/media/cypress.svg": "./static/media/cypress.1da44670ff1cd580c8b1e706c0b9882d.svg",
+    "static/media/typescript-badge.svg": "./static/media/typescript-badge.aae3df7ceb432de3db1b78a4fca1de5a.svg",
+    "static/media/javascript-badge.svg": "./static/media/javascript-badge.1bea6f2e3ae4ceb84214713d718a42f8.svg",
+    "static/media/stylus-badge.svg": "./static/media/stylus-badge.b3b8452469ee0375774dee39a02c9ea8.svg",
+    "static/media/figma.svg": "./static/media/figma.aa885dcfcabf5fd6f61a74571252c6c7.svg",
+    "static/media/jwk-badge.svg": "./static/media/jwk-badge.be13d3103a4263236ed964248c188076.svg",
+    "static/media/sass-badge.svg": "./static/media/sass-badge.59fc25b25c5bfae2a4c48c69175c1641.svg",
     "index.html": "./index.html",
-    "main.3c458cf6.css.map": "./static/css/main.3c458cf6.css.map",
-    "main.90136b53.js.map": "./static/js/main.90136b53.js.map",
+    "static/media/kotlin-badge.svg": "./static/media/kotlin-badge.5daa205a60d11b198d7ddcb3e73cad24.svg",
+    "main.c26fdc30.css.map": "./static/css/main.c26fdc30.css.map",
+    "main.859e0244.js.map": "./static/js/main.859e0244.js.map",
     "787.d7d88cf9.chunk.js.map": "./static/js/787.d7d88cf9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c458cf6.css",
-    "static/js/main.90136b53.js"
+    "static/css/main.c26fdc30.css",
+    "static/js/main.859e0244.js"
   ]
 }
