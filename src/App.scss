@@ -3,6 +3,7 @@
 @import '../assets/css/variables.scss';
 @import '../assets/css/title.scss';
 @import '../assets/css/content-section.scss';
+@import '../assets/css/badge.scss';
 
 @import '../assets/css/welcome.scss';
 @import '../assets/css/about-me.scss';
@@ -47,9 +48,9 @@ html {
 	z-index: 1;
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1350px) {
 	.main {
-		max-width: 1500px;
+		max-width: 1340px;
 	}
 }
 

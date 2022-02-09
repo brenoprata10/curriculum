@@ -34,22 +34,6 @@
 				display: grid;
 				grid-template-columns: repeat(auto-fill, minmax($badge-size, 1fr));
 				gap: 4em;
-
-				&-item {
-					display: flex;
-					flex-direction: column;
-					justify-content: center;
-					align-items: center;
-
-					img {
-						width: $badge-size;
-						height: $badge-size;
-					}
-
-					span {
-						margin-top: 1em;
-					}
-				}
 			}
 		}
 	}

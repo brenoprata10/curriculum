@@ -1,3 +1,5 @@
+import {Badge} from '../../utils/Badge'
+
 export interface IBadge {
 	path: string
 	name: string
@@ -8,10 +10,7 @@ export const QualificationSection = ({title, badges}: {title: string; badges: IB
 		<b>{title}:</b>
 		<div className={'badges-grid'}>
 			{badges.map(({path, name}) => (
-				<div key={`${name}-badge`} className={'badges-grid-item'}>
-					<img src={path} />
-					<span>{name}</span>
-				</div>
+				<Badge key={`${name}-badge`} name={name} path={path} size={'7em'} />
 			))}
 		</div>
 	</div>
