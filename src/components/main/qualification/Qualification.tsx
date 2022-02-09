@@ -11,6 +11,7 @@ import REACT_BADGE from '../../../public/images/badges/front-end/react-badge.svg
 import ANGULAR_BADGE from '../../../public/images/badges/front-end/angular-badge.svg'
 import TYPESCRIPT_BADGE from '../../../public/images/badges/front-end/typescript-badge.svg'
 import SWIFT_BADGE from '../../../public/images/badges/front-end/swift-badge.svg'
+import REDUX_BADGE from '../../../public/images/badges/front-end/redux-badge.svg'
 
 //Back-end badges
 import JAVA_BADGE from '../../../public/images/badges/back-end/java-badge.svg'
@@ -48,6 +49,7 @@ const QUALIFICATION_CONFIG: {
 			{path: SWIFT_BADGE, name: 'Swift'},
 			{path: REACT_BADGE, name: 'React'},
 			{path: ANGULAR_BADGE, name: 'Angular'},
+			{path: REDUX_BADGE, name: 'Redux'},
 			{path: TYPESCRIPT_BADGE, name: 'Typescript'},
 		],
 	},

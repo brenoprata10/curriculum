@@ -22,6 +22,10 @@
 			border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 			font-size: 1.3em;
 
+			&:last-child {
+				border-bottom: none;
+			}
+
 			.badges-grid {
 				$badge-size: 7em;
 

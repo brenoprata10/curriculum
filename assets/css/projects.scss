@@ -1,0 +1,13 @@
+@import './variables.scss';
+
+.projects {
+	margin-top: $section-margin-top;
+
+	&-content {
+		.projects-grid {
+			display: grid;
+			grid-template-columns: repeat(auto-fill, minmax(11em, 1fr));
+			gap: 3em;
+		}
+	}
+}
