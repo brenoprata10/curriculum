@@ -40,7 +40,7 @@ const PROJECTS: IProjectItemProps[] = [
 		],
 		image: BRASIL_IMAGE,
 		ribbon: GITHUB_IMAGE,
-		goToCallback: () => window.open('https://ibge-sql.herokuapp.com/', '_newtab'),
+		goToCallback: () => window.open('https://github.com/brenoprata10/ibge-sql', '_newtab'),
 	},
 	{
 		id: 'twitter-search-api',
@@ -54,7 +54,7 @@ const PROJECTS: IProjectItemProps[] = [
 		],
 		image: TWITTER_IMAGE,
 		ribbon: GITHUB_IMAGE,
-		goToCallback: () => window.open('https://task-twitter.herokuapp.com/', '_newtab'),
+		goToCallback: () => window.open('https://github.com/brenoprata10/roi-task', '_newtab'),
 	},
 	{
 		id: 'wishy',
