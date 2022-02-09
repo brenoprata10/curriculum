@@ -113,10 +113,10 @@
 						@keyframes planet-rings-polisys {
 							0%,
 							100% {
-								transform: rotate3d(2, 2, 5, 130deg);
+								transform: rotate3d(1, 2, 5, 60deg);
 							}
 							50% {
-								transform: rotate3d(2, 2, 5, $end-rotation);
+								transform: rotate3d(1, 2, 5, $end-rotation);
 							}
 						}
 					}
