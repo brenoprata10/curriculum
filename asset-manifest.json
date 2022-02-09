@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.edf83c8d.css",
+    "main.css": "./static/css/main.91de2aa3.css",
     "main.js": "./static/js/main.c8b7a341.js",
     "static/js/787.d7d88cf9.chunk.js": "./static/js/787.d7d88cf9.chunk.js",
     "static/media/brasil.svg": "./static/media/brasil.88ec83ca2a0e9025f34574a012bebaa7.svg",
@@ -35,12 +35,12 @@
     "static/media/github-ribbon.svg": "./static/media/github-ribbon.fa98cb0c14118fb8fc3a3df541a0c6b6.svg",
     "index.html": "./index.html",
     "static/media/kotlin-badge.svg": "./static/media/kotlin-badge.5daa205a60d11b198d7ddcb3e73cad24.svg",
-    "main.edf83c8d.css.map": "./static/css/main.edf83c8d.css.map",
+    "main.91de2aa3.css.map": "./static/css/main.91de2aa3.css.map",
     "main.c8b7a341.js.map": "./static/js/main.c8b7a341.js.map",
     "787.d7d88cf9.chunk.js.map": "./static/js/787.d7d88cf9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.edf83c8d.css",
+    "static/css/main.91de2aa3.css",
     "static/js/main.c8b7a341.js"
   ]
 }
