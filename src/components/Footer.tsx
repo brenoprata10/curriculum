@@ -8,7 +8,7 @@ export const Footer = () => (
 		<div className={'created-with'}>
 			<FooterSection label={'Created with'} badge={REACT_BADGE} />
 			<FooterSection label={'Designed on'} badge={FIGMA_BADGE} />
-			<img src={ASTRONAUT} className={'astronaut'} />
+			<img src={ASTRONAUT} className={'astronaut'} alt={'Astronaut'} />
 		</div>
 	</div>
 )

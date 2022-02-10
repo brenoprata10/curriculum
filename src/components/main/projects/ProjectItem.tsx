@@ -3,7 +3,7 @@ import {IProjectItemProps} from './Projects'
 
 export const ProjectItem = ({name, description, image, badges, ribbon, goToCallback}: IProjectItemProps) => (
 	<div className={'project-item'}>
-		{ribbon && <img src={ribbon} className={'ribbon'} onClick={goToCallback} />}
+		{ribbon && <img src={ribbon} className={'ribbon'} alt={'external-link-ribbon'} onClick={goToCallback} />}
 		<div className={'image-data-container'}>
 			<img src={image} alt={name} />
 			<div className={'description-wrapper'}>
