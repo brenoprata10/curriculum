@@ -4,9 +4,12 @@
 	margin-top: $section-margin-top;
 
 	&-content {
+		$margin: 2em;
 		display: flex;
 		justify-content: space-evenly;
 		flex-wrap: wrap;
+		margin-right: $margin;
+		margin-left: $margin;
 
 		.section {
 			display: flex;

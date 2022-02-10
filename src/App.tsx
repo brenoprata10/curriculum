@@ -11,8 +11,8 @@ const App = () => {
 			<Header />
 			<div className={'content'}>
 				<Main />
-				<Footer />
 			</div>
+			<Footer />
 			<Particles width={'.1'} height={'.1'} id='tsparticles' options={PARTICLES_OPTIONS as unknown as any} />
 		</>
 	)

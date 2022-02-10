@@ -12,7 +12,7 @@ export const ProjectItem = ({name, description, image, badges, ribbon, goToCallb
 				<b className={'created-with'}>Created with:</b>
 				<div className={'badges-list'}>
 					{badges.map((badge, index) => (
-						<Badge key={`${name}-badge-${index}`} {...badge} size={'4.5em'} margin={'0 2em 0 2em'} />
+						<Badge key={`${name}-badge-${index}`} {...badge} size={'4.5em'} margin={'0 1.5em 0 1.5em'} />
 					))}
 				</div>
 			</div>

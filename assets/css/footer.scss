@@ -18,7 +18,7 @@
 		}
 
 		@media (max-width: 510px) {
-			width: auto;
+			min-width: 50%;
 		}
 
 		.section {
@@ -35,7 +35,7 @@
 			position: absolute;
 			left: 0;
 			bottom: 0;
-			max-width: 40%;
+			max-width: 35%;
 		}
 
 		b {
