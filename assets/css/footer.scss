@@ -1,0 +1,30 @@
+.footer {
+	display: flex;
+	justify-content: flex-end;
+	flex-basis: 100%;
+	padding: 20em 0 2em 0;
+	position: relative;
+	z-index: 1;
+
+	.created-with {
+		display: flex;
+		justify-content: space-evenly;
+		width: 30%;
+
+		.section {
+			display: flex;
+			justify-content: space-evenly;
+			width: 16em;
+		}
+
+		.astronaut {
+			position: absolute;
+			left: 0;
+			bottom: 0;
+		}
+
+		b {
+			align-self: center;
+		}
+	}
+}

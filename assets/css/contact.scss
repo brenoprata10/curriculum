@@ -1,0 +1,31 @@
+@import './variables.scss';
+
+.contact {
+	margin-top: $section-margin-top;
+
+	&-content {
+		display: flex;
+		justify-content: space-evenly;
+
+		.section {
+			display: flex;
+			flex-direction: column;
+			font-size: 1.3em;
+			text-align: center;
+
+			&-title {
+				margin-bottom: 1.5em;
+			}
+
+			a {
+				color: white;
+				text-decoration: auto;
+			}
+
+			svg {
+				cursor: pointer;
+				align-self: center;
+			}
+		}
+	}
+}
