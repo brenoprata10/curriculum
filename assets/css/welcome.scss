@@ -11,6 +11,7 @@
 
 	@media (max-width: $responsive-max-width-sm) {
 		font-size: $welcome-font-size-sm !important;
+		height: calc(100vh - ($base-header-height + 1em));
 	}
 
 	&-wrapper {
