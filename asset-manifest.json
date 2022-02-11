@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.70e3a1ee.css",
+    "main.css": "./static/css/main.fc8c296f.css",
     "main.js": "./static/js/main.5147d4c7.js",
     "static/js/787.d7d88cf9.chunk.js": "./static/js/787.d7d88cf9.chunk.js",
     "static/media/brasil.svg": "./static/media/brasil.88ec83ca2a0e9025f34574a012bebaa7.svg",
@@ -36,12 +36,12 @@
     "static/media/github-ribbon.svg": "./static/media/github-ribbon.fa98cb0c14118fb8fc3a3df541a0c6b6.svg",
     "index.html": "./index.html",
     "static/media/kotlin-badge.svg": "./static/media/kotlin-badge.5daa205a60d11b198d7ddcb3e73cad24.svg",
-    "main.70e3a1ee.css.map": "./static/css/main.70e3a1ee.css.map",
+    "main.fc8c296f.css.map": "./static/css/main.fc8c296f.css.map",
     "main.5147d4c7.js.map": "./static/js/main.5147d4c7.js.map",
     "787.d7d88cf9.chunk.js.map": "./static/js/787.d7d88cf9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.70e3a1ee.css",
+    "static/css/main.fc8c296f.css",
     "static/js/main.5147d4c7.js"
   ]
 }
