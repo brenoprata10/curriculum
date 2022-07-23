@@ -10,12 +10,14 @@ import JAVASCRIPT_BADGE from '../../../public/images/badges/front-end/javascript
 import REDUX_BADGE from '../../../public/images/badges/front-end/redux-badge.svg'
 import SWIFT_BADGE from '../../../public/images/badges/front-end/swift-badge.svg'
 import NODE_BADGE from '../../../public/images/badges/back-end/nodejs-badge.svg'
+import LUA_BADGE from '../../../public/images/badges/back-end/lua-badge.svg'
 import BRASIL_IMAGE from '../../../public/images/projects/brasil.svg'
 import TWITTER_IMAGE from '../../../public/images/projects/twitter.svg'
 import WISHY_IMAGE from '../../../public/images/projects/wishy.svg'
 import SCRIPTABLE_IMAGE from '../../../public/images/projects/scriptable.svg'
 import GITHUB_IMAGE from '../../../public/images/projects/github-ribbon.svg'
 import EXTERNAL_LINK_IMAGE from '../../../public/images/projects/external-link-ribbon.svg'
+import NEOVIM_LOGO from '../../../public/images/projects/neovim-logo.svg'
 
 export interface IProjectItemProps {
 	id: string
@@ -55,6 +57,29 @@ const PROJECTS: IProjectItemProps[] = [
 		image: TWITTER_IMAGE,
 		ribbon: GITHUB_IMAGE,
 		goToCallback: () => window.open('https://github.com/brenoprata10/roi-task', '_newtab'),
+	},
+	{
+		id: 'nvim-highlight-colors',
+		name: 'Nvim Highlight Colors Plugin',
+		description: 'Neovim plugin that displays colors on the editor based on their HEX/rgb/rgba value.',
+		badges: [{path: LUA_BADGE, name: 'Lua'}],
+		image: NEOVIM_LOGO,
+		ribbon: GITHUB_IMAGE,
+		goToCallback: () => window.open('https://github.com/brenoprata10/nvim-highlight-colors', '_newtab'),
+	},
+	{
+		id: 'well-played',
+		name: 'WP: Track Game Deals',
+		description:
+			'React Native app that allow users to track their game wishlist on Steam, Nintendo America, Nintendo Europe.',
+		badges: [
+			{path: REACT_BADGE, name: 'React Native'},
+			{path: NODE_BADGE, name: 'Node JS'},
+		],
+		image: WISHY_IMAGE,
+		ribbon: EXTERNAL_LINK_IMAGE,
+		goToCallback: () =>
+			window.open('https://play.google.com/store/apps/details?id=com.brenoprata.GameQuest', '_newtab'),
 	},
 	{
 		id: 'wishy',

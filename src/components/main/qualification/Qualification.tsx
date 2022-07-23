@@ -21,6 +21,7 @@ import SPRING_BADGE from '../../../public/images/badges/back-end/springboot-badg
 import JWT_BADGE from '../../../public/images/badges/back-end/jwk-badge.svg'
 import POSTGRES_BADGE from '../../../public/images/badges/back-end/postgres-badge.svg'
 import MYSQL_BADGE from '../../../public/images/badges/back-end/mysql-badge.svg'
+import LUA_BADGE from '../../../public/images/badges/back-end/lua-badge.svg'
 
 // Testing
 import CYPRESS_BADGE from '../../../public/images/badges/testing/cypress.svg'
@@ -58,6 +59,7 @@ const QUALIFICATION_CONFIG: {
 			{path: JAVA_BADGE, name: 'JAVA'},
 			{path: KOTLIN_BADGE, name: 'Kotlin'},
 			{path: NODE_BADGE, name: 'Node JS'},
+			{path: LUA_BADGE, name: 'Lua'},
 			{path: SPRING_BADGE, name: 'Spring Boot'},
 			{path: JWT_BADGE, name: 'JWT Tokens'},
 			{path: POSTGRES_BADGE, name: 'PostgreSQL'},
