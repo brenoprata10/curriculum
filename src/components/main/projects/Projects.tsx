@@ -8,7 +8,6 @@ import SASS_BADGE from '../../../public/images/badges/front-end/sass-badge.svg'
 import REACT_BADGE from '../../../public/images/badges/front-end/react-badge.svg'
 import JAVASCRIPT_BADGE from '../../../public/images/badges/front-end/javascript-badge.svg'
 import REDUX_BADGE from '../../../public/images/badges/front-end/redux-badge.svg'
-import SWIFT_BADGE from '../../../public/images/badges/front-end/swift-badge.svg'
 import NODE_BADGE from '../../../public/images/badges/back-end/nodejs-badge.svg'
 import LUA_BADGE from '../../../public/images/badges/back-end/lua-badge.svg'
 import BRASIL_IMAGE from '../../../public/images/projects/brasil.svg'
@@ -18,6 +17,7 @@ import SCRIPTABLE_IMAGE from '../../../public/images/projects/scriptable.svg'
 import GITHUB_IMAGE from '../../../public/images/projects/github-ribbon.svg'
 import EXTERNAL_LINK_IMAGE from '../../../public/images/projects/external-link-ribbon.svg'
 import NEOVIM_LOGO from '../../../public/images/projects/neovim-logo.svg'
+import STEAM_DECK from '../../../public/images/projects/steam-deck.svg'
 
 export interface IProjectItemProps {
 	id: string
@@ -30,6 +30,38 @@ export interface IProjectItemProps {
 }
 
 const PROJECTS: IProjectItemProps[] = [
+	{
+		id: 'steam-deck-romate',
+		name: 'Steam Deck Romate',
+		description:
+			'A beautiful Steam ROM manager built from the ground up to work perfectly with Windows, Linux and primarily Steam Deck devices.',
+		badges: [
+			{path: REACT_BADGE, name: 'React'},
+			{path: NODE_BADGE, name: 'Node JS'},
+		],
+		image: STEAM_DECK,
+		ribbon: GITHUB_IMAGE,
+		goToCallback: () => window.open('https://github.com/brenoprata10/steam-deck-romate', '_newtab'),
+	},
+	{
+		id: 'nvim-highlight-colors',
+		name: 'Nvim Highlight Colors Plugin',
+		description: 'Neovim plugin that displays colors on the editor based on their HEX/rgb/rgba value.',
+		badges: [{path: LUA_BADGE, name: 'Lua'}],
+		image: NEOVIM_LOGO,
+		ribbon: GITHUB_IMAGE,
+		goToCallback: () => window.open('https://github.com/brenoprata10/nvim-highlight-colors', '_newtab'),
+	},
+	{
+		id: 'steam-wishlist',
+		name: 'Steam Wishlist',
+		description:
+			'Widget for IOS created with Scriptable app. It displays the user steam wishlist based on the configured ID.',
+		badges: [{path: JAVASCRIPT_BADGE, name: 'Javascript'}],
+		image: SCRIPTABLE_IMAGE,
+		ribbon: EXTERNAL_LINK_IMAGE,
+		goToCallback: () => window.open('https://twitter.com/BrenoXDDD/status/1358729670221561856', '_newtab'),
+	},
 	{
 		id: 'ibge-sql',
 		name: 'IBGE-SQL',
@@ -59,15 +91,6 @@ const PROJECTS: IProjectItemProps[] = [
 		goToCallback: () => window.open('https://github.com/brenoprata10/roi-task', '_newtab'),
 	},
 	{
-		id: 'nvim-highlight-colors',
-		name: 'Nvim Highlight Colors Plugin',
-		description: 'Neovim plugin that displays colors on the editor based on their HEX/rgb/rgba value.',
-		badges: [{path: LUA_BADGE, name: 'Lua'}],
-		image: NEOVIM_LOGO,
-		ribbon: GITHUB_IMAGE,
-		goToCallback: () => window.open('https://github.com/brenoprata10/nvim-highlight-colors', '_newtab'),
-	},
-	{
 		id: 'well-played',
 		name: 'WP: Track Game Deals',
 		description:
@@ -80,29 +103,6 @@ const PROJECTS: IProjectItemProps[] = [
 		ribbon: EXTERNAL_LINK_IMAGE,
 		goToCallback: () =>
 			window.open('https://play.google.com/store/apps/details?id=com.brenoprata.GameQuest', '_newtab'),
-	},
-	{
-		id: 'wishy',
-		name: 'Wishy Game Tracker',
-		description:
-			'Native IOS app created with Node JS back-end that allowed users to track their game wishlist on Steam, Nintendo America, Nintendo Europe and Playstation.',
-		badges: [
-			{path: SWIFT_BADGE, name: 'Swift'},
-			{path: NODE_BADGE, name: 'Node JS'},
-		],
-		image: WISHY_IMAGE,
-		ribbon: EXTERNAL_LINK_IMAGE,
-		goToCallback: () => window.open('https://www.99images.com/apps/ios-shopping/1480028778', '_newtab'),
-	},
-	{
-		id: 'steam-wishlist',
-		name: 'Steam Wishlist',
-		description:
-			'Widget for IOS created with Scriptable app. It displays the user steam wishlist based on the configured ID.',
-		badges: [{path: JAVASCRIPT_BADGE, name: 'Javascript'}],
-		image: SCRIPTABLE_IMAGE,
-		ribbon: EXTERNAL_LINK_IMAGE,
-		goToCallback: () => window.open('https://twitter.com/BrenoXDDD/status/1358729670221561856', '_newtab'),
 	},
 ]
 

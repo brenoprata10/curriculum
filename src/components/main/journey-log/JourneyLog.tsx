@@ -5,6 +5,7 @@ import RH_LOGO from '../../../public/images/companies/rh-logo.png'
 import BASIS_LOGO from '../../../public/images/companies/basis-logo.png'
 import INDRA_LOGO from '../../../public/images/companies/indra-logo.png'
 import POLISYS_LOGO from '../../../public/images/companies/polisys-logo.png'
+import ESL_LOGO from '../../../public/images/companies/esl-logo.png'
 import {Section} from '../../utils/Section'
 
 export interface IJourneyLogItemProps {
@@ -18,10 +19,18 @@ export interface IJourneyLogItemProps {
 
 const JOURNEY_LOG: IJourneyLogItemProps[] = [
 	{
+		id: 'esl',
+		name: 'ESL Gaming',
+		role: 'Senior Software Engineer',
+		date: '🚀 Docked - March 2023',
+		image: ESL_LOGO,
+		ringConfig: {borderColor: 'yellow'},
+	},
+	{
 		id: 'roihunter',
 		name: 'ROI Hunter',
 		role: 'Front-end Dev',
-		date: '🚀 Docked - April 2019',
+		date: 'February - April 2019',
 		image: RH_LOGO,
 	},
 	{

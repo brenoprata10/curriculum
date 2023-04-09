@@ -7,7 +7,7 @@ export const JourneyLogItem = ({id, name, role, date, image, ringConfig}: IJourn
 			<img src={image} alt={'rotating-planet'} />
 			<div
 				className={`ring ring-${id}`}
-				style={{...ringConfig, ...(isSafariBrowser() ? {animationDuration: '40s'} : {})}}
+				style={{...ringConfig, ...(isSafariBrowser() ? {animationDuration: '400s'} : {})}}
 			/>
 		</div>
 		<span className={'planet-name'}>{name}</span>

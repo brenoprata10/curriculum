@@ -69,6 +69,19 @@
 					border-radius: 50%;
 					transform: rotate3d(1, 1, 1, 200deg);
 
+					&-esl {
+						animation: planet-rings-esl 400s infinite linear;
+						@keyframes planet-rings-esl {
+							0%,
+							100% {
+								transform: rotate3d(260, 100, 100, 0deg);
+							}
+							50% {
+								transform: rotate3d(290, 50, 360, $end-rotation);
+							}
+						}
+					}
+
 					&-roihunter {
 						animation: planet-rings-rh 400s infinite linear;
 						@keyframes planet-rings-rh {
