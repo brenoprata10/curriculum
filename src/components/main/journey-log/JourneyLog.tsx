@@ -30,7 +30,7 @@ const JOURNEY_LOG: IJourneyLogItemProps[] = [
 		id: 'roihunter',
 		name: 'ROI Hunter',
 		role: 'Front-end Dev',
-		date: 'February - April 2019',
+		date: 'February 2023 - April 2019',
 		image: RH_LOGO,
 	},
 	{
