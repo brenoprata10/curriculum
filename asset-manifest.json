@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.fc8c296f.css",
-    "main.js": "./static/js/main.aba9d781.js",
+    "main.css": "./static/css/main.beb8ddc5.css",
+    "main.js": "./static/js/main.162d24bc.js",
     "static/js/787.d7d88cf9.chunk.js": "./static/js/787.d7d88cf9.chunk.js",
     "static/media/brasil.svg": "./static/media/brasil.88ec83ca2a0e9025f34574a012bebaa7.svg",
     "static/media/profile-picture.png": "./static/media/profile-picture.7040023d40c2f4ab1038.png",
@@ -10,6 +10,7 @@
     "static/media/react-badge.svg": "./static/media/react-badge.3e9e246cb106a3fded464c2739c64aac.svg",
     "static/media/rh-logo.png": "./static/media/rh-logo.b40822119a38c257dcad.png",
     "static/media/java-badge.svg": "./static/media/java-badge.8e1b61fe45b82f4152455422cf7eee3f.svg",
+    "static/media/esl-logo.png": "./static/media/esl-logo.74b65b9aac9fff183660.png",
     "static/media/html5-badge.svg": "./static/media/html5-badge.2840603257fd16807aba263085e8b39b.svg",
     "static/media/indra-logo.png": "./static/media/indra-logo.ef142f02f960919bd5b8.png",
     "static/media/nodejs-badge.svg": "./static/media/nodejs-badge.b5323004d99cbaf7667395aaf988194d.svg",
@@ -37,13 +38,14 @@
     "static/media/github-ribbon.svg": "./static/media/github-ribbon.fa98cb0c14118fb8fc3a3df541a0c6b6.svg",
     "index.html": "./index.html",
     "static/media/kotlin-badge.svg": "./static/media/kotlin-badge.5daa205a60d11b198d7ddcb3e73cad24.svg",
+    "static/media/steam-deck.svg": "./static/media/steam-deck.33596d92e425c8cfe29459bcb4d270d7.svg",
     "static/media/neovim-logo.svg": "./static/media/neovim-logo.0c218075d54095335dd2bba2279ca5db.svg",
-    "main.fc8c296f.css.map": "./static/css/main.fc8c296f.css.map",
-    "main.aba9d781.js.map": "./static/js/main.aba9d781.js.map",
+    "main.beb8ddc5.css.map": "./static/css/main.beb8ddc5.css.map",
+    "main.162d24bc.js.map": "./static/js/main.162d24bc.js.map",
     "787.d7d88cf9.chunk.js.map": "./static/js/787.d7d88cf9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc8c296f.css",
-    "static/js/main.aba9d781.js"
+    "static/css/main.beb8ddc5.css",
+    "static/js/main.162d24bc.js"
   ]
 }
