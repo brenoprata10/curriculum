@@ -2,7 +2,7 @@ export const AboutMeDescription = () => (
 	<div className={'description'}>
 		<i>*** Receiving transmission ***</i>
 		<span>
-			Brazilian, 26 years old, stationed in Czech Republic, video game nerd, pet lover and last, but not least,{' '}
+			Brazilian, 26 years old, stationed in Germany, video game nerd, pet lover and last, but not least,{' '}
 			<b>SOFTWARE DEVELOPER</b>. 👨‍💻
 		</span>
 		<span>
