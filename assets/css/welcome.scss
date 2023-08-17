@@ -31,50 +31,19 @@
 			}
 		}
 
-		.mouse-wrapper {
-			font-size: 40px;
-			$mouse-width: 0.65em;
-			$mouse-border: 0.05em;
-			animation: fade-in 0.5s;
+		.mouse {
 			position: absolute;
 			top: 4.2em;
-			left: calc(50% - ($mouse-width / 2 + $mouse-border));
-
-			.icon {
-				content: '';
-				width: $mouse-width;
-				height: 1.1em;
-				border: $mouse-border solid white;
-				border-radius: 25px;
-				animation: move-mouse 1s infinite;
-
-				&::before {
-					$scroll-wheel-width: 0.09em;
-					content: '';
-					position: absolute;
-					top: 0.2em;
-					left: calc(50% - ($scroll-wheel-width / 2 + $mouse-border));
-					border-radius: 25px;
-					width: $scroll-wheel-width;
-					height: 0.2em;
-					border: $mouse-border solid white;
-				}
-			}
-		}
-
-		@keyframes fade-in {
-			from {
-				opacity: 0;
-			}
-			to {
-				opacity: 1;
-			}
+			left: calc(50% - (90px / 2));
+			animation-name: move-mouse;
+			animation-duration: 1.9s;
+			animation-iteration-count: infinite;
 		}
 
 		@keyframes move-mouse {
 			0%,
 			100% {
-				opacity: 0.8;
+				opacity: 0.5;
 				transform: translateY(0);
 			}
 			50% {

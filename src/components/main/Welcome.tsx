@@ -1,4 +1,5 @@
 import {useEffect, useState} from 'react'
+import MOUSE from '../../public/images/mouse.svg'
 
 const WELCOME_PHRASE = 'Welcome to my Curriculum!'
 
@@ -28,11 +29,7 @@ export const Welcome = () => {
 		<div className={'welcome'}>
 			<div className={'welcome-wrapper'}>
 				<h3>{phase}</h3>
-				{showMouse && (
-					<div className={'mouse-wrapper'}>
-						<div className={'icon'} />
-					</div>
-				)}
+				{showMouse && <img className='mouse' src={MOUSE} alt={'Mouse'} style={{width: 90, height: 90}} />}
 			</div>
 		</div>
 	)
