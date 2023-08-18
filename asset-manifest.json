@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.bbecbe23.css",
+    "main.css": "./static/css/main.32f03f3d.css",
     "main.js": "./static/js/main.a80fe9e0.js",
     "static/js/787.d7d88cf9.chunk.js": "./static/js/787.d7d88cf9.chunk.js",
     "static/media/brasil.svg": "./static/media/brasil.88ec83ca2a0e9025f34574a012bebaa7.svg",
@@ -41,12 +41,12 @@
     "static/media/kotlin-badge.svg": "./static/media/kotlin-badge.5daa205a60d11b198d7ddcb3e73cad24.svg",
     "static/media/steam-deck.svg": "./static/media/steam-deck.33596d92e425c8cfe29459bcb4d270d7.svg",
     "static/media/neovim-logo.svg": "./static/media/neovim-logo.0c218075d54095335dd2bba2279ca5db.svg",
-    "main.bbecbe23.css.map": "./static/css/main.bbecbe23.css.map",
+    "main.32f03f3d.css.map": "./static/css/main.32f03f3d.css.map",
     "main.a80fe9e0.js.map": "./static/js/main.a80fe9e0.js.map",
     "787.d7d88cf9.chunk.js.map": "./static/js/787.d7d88cf9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbecbe23.css",
+    "static/css/main.32f03f3d.css",
     "static/js/main.a80fe9e0.js"
   ]
 }
