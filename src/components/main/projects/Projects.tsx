@@ -6,6 +6,7 @@ import ANGULAR_BADGE from '../../../public/images/badges/front-end/angular-badge
 import TYPESCRIPT_BADGE from '../../../public/images/badges/front-end/typescript-badge.svg'
 import SASS_BADGE from '../../../public/images/badges/front-end/sass-badge.svg'
 import REACT_BADGE from '../../../public/images/badges/front-end/react-badge.svg'
+import ELECTRON_BADGE from '../../../public/images/badges/front-end/electron-badge.svg'
 import JAVASCRIPT_BADGE from '../../../public/images/badges/front-end/javascript-badge.svg'
 import REDUX_BADGE from '../../../public/images/badges/front-end/redux-badge.svg'
 import NODE_BADGE from '../../../public/images/badges/back-end/nodejs-badge.svg'
@@ -25,6 +26,7 @@ export interface IProjectItemProps {
 	description: string
 	badges: IBadge[]
 	image: string
+	githubRepositoryName?: string
 	ribbon?: string
 	goToCallback?: () => void
 }
@@ -33,10 +35,12 @@ const PROJECTS: IProjectItemProps[] = [
 	{
 		id: 'steam-deck-romate',
 		name: 'Steam Deck Romate',
+		githubRepositoryName: 'steam-deck-romate',
 		description:
 			'A beautiful Steam ROM manager built from the ground up to work perfectly with Windows, Linux and primarily Steam Deck devices.',
 		badges: [
 			{path: REACT_BADGE, name: 'React'},
+			{path: ELECTRON_BADGE, name: 'Electron'},
 			{path: NODE_BADGE, name: 'Node JS'},
 		],
 		image: STEAM_DECK,
@@ -46,6 +50,7 @@ const PROJECTS: IProjectItemProps[] = [
 	{
 		id: 'nvim-highlight-colors',
 		name: 'Nvim Highlight Colors Plugin',
+		githubRepositoryName: 'nvim-highlight-colors',
 		description: 'Neovim plugin that displays colors on the editor based on their HEX/rgb/rgba value.',
 		badges: [{path: LUA_BADGE, name: 'Lua'}],
 		image: NEOVIM_LOGO,
@@ -65,6 +70,7 @@ const PROJECTS: IProjectItemProps[] = [
 	{
 		id: 'ibge-sql',
 		name: 'IBGE-SQL',
+		githubRepositoryName: 'ibge-sql',
 		description:
 			'Developed to help other software developers and companies overall to populate their database with the most recent SQL script with all the states and cities of the country.',
 		badges: [
@@ -79,6 +85,7 @@ const PROJECTS: IProjectItemProps[] = [
 	{
 		id: 'twitter-search-api',
 		name: 'Twitter Search API',
+		githubRepositoryName: 'roi-task',
 		description:
 			'Cool small challenge created for my ROI Hunter interview process. This project allows the user to fetch specific twitter posts and displays some analisys out of it.',
 		badges: [

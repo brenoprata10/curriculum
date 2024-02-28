@@ -1,7 +1,7 @@
 import {useEffect, useState} from 'react'
 import MOUSE from '../../public/images/mouse.svg'
 
-const WELCOME_PHRASE = 'Welcome to my Curriculum!'
+const WELCOME_PHRASE = 'Welcome to My Curriculum!'
 
 export const Welcome = () => {
 	const [phase, setPhase] = useState('')

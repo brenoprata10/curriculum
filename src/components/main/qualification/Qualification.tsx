@@ -8,6 +8,7 @@ import JAVASCRIPT_BADGE from '../../../public/images/badges/front-end/javascript
 import SASS_BADGE from '../../../public/images/badges/front-end/sass-badge.svg'
 import STYLUS_BADGE from '../../../public/images/badges/front-end/stylus-badge.svg'
 import REACT_BADGE from '../../../public/images/badges/front-end/react-badge.svg'
+import ELECTRON_BADGE from '../../../public/images/badges/front-end/electron-badge.svg'
 import ANGULAR_BADGE from '../../../public/images/badges/front-end/angular-badge.svg'
 import TYPESCRIPT_BADGE from '../../../public/images/badges/front-end/typescript-badge.svg'
 import SWIFT_BADGE from '../../../public/images/badges/front-end/swift-badge.svg'
@@ -49,6 +50,7 @@ const QUALIFICATION_CONFIG: {
 			{path: STYLUS_BADGE, name: 'Stylus'},
 			{path: SWIFT_BADGE, name: 'Swift'},
 			{path: REACT_BADGE, name: 'React'},
+			{path: ELECTRON_BADGE, name: 'Electron'},
 			{path: ANGULAR_BADGE, name: 'Angular'},
 			{path: REDUX_BADGE, name: 'Redux'},
 			{path: TYPESCRIPT_BADGE, name: 'Typescript'},
