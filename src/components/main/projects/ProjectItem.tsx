@@ -27,7 +27,9 @@ export const ProjectItem = ({
 			setGithubStarCount(githubRepositoryData.stargazers_count)
 		}
 
-		loadGithubStarCount()
+		if (githubRepositoryName) {
+			loadGithubStarCount()
+		}
 	}, [githubRepositoryName])
 
 	return (
