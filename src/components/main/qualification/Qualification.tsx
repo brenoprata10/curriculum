@@ -13,6 +13,7 @@ import ANGULAR_BADGE from '../../../public/images/badges/front-end/angular-badge
 import TYPESCRIPT_BADGE from '../../../public/images/badges/front-end/typescript-badge.svg'
 import SWIFT_BADGE from '../../../public/images/badges/front-end/swift-badge.svg'
 import REDUX_BADGE from '../../../public/images/badges/front-end/redux-badge.svg'
+import NEXT_JS_BADGE from '../../../public/images/badges/front-end/next-js-badge.svg'
 
 //Back-end badges
 import JAVA_BADGE from '../../../public/images/badges/back-end/java-badge.svg'
@@ -46,14 +47,15 @@ const QUALIFICATION_CONFIG: {
 			{path: HTML_BADGE, name: 'HTML 5'},
 			{path: CSS_BADGE, name: 'CSS 3'},
 			{path: JAVASCRIPT_BADGE, name: 'Javascript'},
-			{path: SASS_BADGE, name: 'SASS'},
-			{path: STYLUS_BADGE, name: 'Stylus'},
-			{path: SWIFT_BADGE, name: 'Swift'},
+			{path: TYPESCRIPT_BADGE, name: 'Typescript'},
 			{path: REACT_BADGE, name: 'React'},
+			{path: NEXT_JS_BADGE, name: 'NEXT.js'},
+			{path: REDUX_BADGE, name: 'Redux'},
 			{path: ELECTRON_BADGE, name: 'Electron'},
 			{path: ANGULAR_BADGE, name: 'Angular'},
-			{path: REDUX_BADGE, name: 'Redux'},
-			{path: TYPESCRIPT_BADGE, name: 'Typescript'},
+			{path: SWIFT_BADGE, name: 'Swift'},
+			{path: STYLUS_BADGE, name: 'Stylus'},
+			{path: SASS_BADGE, name: 'SASS'},
 		],
 	},
 	[EQualificationSection.BACK_END]: {

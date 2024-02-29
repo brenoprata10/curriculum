@@ -32,9 +32,11 @@ export const ProjectItem = ({
 		}
 	}, [githubRepositoryName])
 
+	const hasGithubStars = Boolean(githubStarCount && githubStarCount > 0)
+
 	return (
 		<div className={'project-item'}>
-			{githubStarCount && (
+			{hasGithubStars && (
 				<div className='github-overview'>
 					<div>
 						★ <span>{githubStarCount}</span>
