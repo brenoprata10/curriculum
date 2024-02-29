@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.32f03f3d.css",
-    "main.js": "./static/js/main.a80fe9e0.js",
+    "main.css": "./static/css/main.3285e86e.css",
+    "main.js": "./static/js/main.1740b321.js",
     "static/js/787.d7d88cf9.chunk.js": "./static/js/787.d7d88cf9.chunk.js",
     "static/media/brasil.svg": "./static/media/brasil.88ec83ca2a0e9025f34574a012bebaa7.svg",
     "static/media/profile-picture.png": "./static/media/profile-picture.7040023d40c2f4ab1038.png",
@@ -32,21 +32,24 @@
     "static/media/jwk-badge.svg": "./static/media/jwk-badge.be13d3103a4263236ed964248c188076.svg",
     "static/media/scriptable.svg": "./static/media/scriptable.b3b41bd342ffbeddd473eb170a8e01a3.svg",
     "static/media/mouse.svg": "./static/media/mouse.8d216fc5b22f1d804d2ca94dd2b1d66d.svg",
+    "static/media/electron-badge.svg": "./static/media/electron-badge.25a085fea152a84ca085a4b33b9c7674.svg",
     "static/media/redux-badge.svg": "./static/media/redux-badge.d5e958b56071fe4604e324cbdf88a104.svg",
     "static/media/external-link-ribbon.svg": "./static/media/external-link-ribbon.bc472835747efdce1f6a7979cdf69c3c.svg",
     "static/media/sass-badge.svg": "./static/media/sass-badge.59fc25b25c5bfae2a4c48c69175c1641.svg",
+    "static/media/next-js-badge.svg": "./static/media/next-js-badge.9db6142f8229a6c4bc4349241fa8f254.svg",
     "static/media/twitter.svg": "./static/media/twitter.a97b0634c07eca7ad6ef8648b68096ef.svg",
     "static/media/github-ribbon.svg": "./static/media/github-ribbon.fa98cb0c14118fb8fc3a3df541a0c6b6.svg",
     "index.html": "./index.html",
     "static/media/kotlin-badge.svg": "./static/media/kotlin-badge.5daa205a60d11b198d7ddcb3e73cad24.svg",
     "static/media/steam-deck.svg": "./static/media/steam-deck.33596d92e425c8cfe29459bcb4d270d7.svg",
     "static/media/neovim-logo.svg": "./static/media/neovim-logo.0c218075d54095335dd2bba2279ca5db.svg",
-    "main.32f03f3d.css.map": "./static/css/main.32f03f3d.css.map",
-    "main.a80fe9e0.js.map": "./static/js/main.a80fe9e0.js.map",
+    "static/media/vercel.svg": "./static/media/vercel.1a2b572a044b8caf9d0dcdc47aa0fb0f.svg",
+    "main.3285e86e.css.map": "./static/css/main.3285e86e.css.map",
+    "main.1740b321.js.map": "./static/js/main.1740b321.js.map",
     "787.d7d88cf9.chunk.js.map": "./static/js/787.d7d88cf9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.32f03f3d.css",
-    "static/js/main.a80fe9e0.js"
+    "static/css/main.3285e86e.css",
+    "static/js/main.1740b321.js"
   ]
 }
