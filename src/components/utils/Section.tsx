@@ -5,6 +5,7 @@ export const Section: React.FC<{
 	wrapperClassName: string
 	title: string
 	icon: IconProp
+	children: React.ReactNode
 }> = ({wrapperClassName, title, icon, children}) => (
 	<div className={wrapperClassName}>
 		<Title name={title} icon={icon} />
