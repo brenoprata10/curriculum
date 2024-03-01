@@ -1,6 +1,9 @@
 import {Page, Document, StyleSheet, View} from '@react-pdf/renderer'
 import {PDF_THEME} from '../../utils/pdf-theme'
+import Abilities from './abilities/Abilities'
 import AboutMe from './about-me/AboutMe'
+import Contact from './contact/Contact'
+import Education from './education/Education'
 import PDFHeader, {PDF_HEADER_HEIGHT} from './PDFHeader'
 import WorkExperience from './work-experience/WorkExperience'
 
@@ -12,7 +15,11 @@ const CurriculumPDF = () => (
 		<Page size='A4' style={styles.page}>
 			<PDFHeader />
 			<View style={styles.container}>
-				<View style={styles.leftContainer}></View>
+				<View style={styles.leftContainer}>
+					<Contact />
+					<Abilities />
+					<Education />
+				</View>
 				<View style={styles.rightContainer}>
 					<AboutMe />
 					<WorkExperience />
@@ -29,6 +36,7 @@ const styles = StyleSheet.create({
 		fontFamily: 'Helvetica',
 		fontSize: 13,
 		justifyContent: 'flex-start',
+		lineHeight: 1.5,
 	},
 	container: {
 		display: 'flex',

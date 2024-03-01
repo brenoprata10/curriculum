@@ -35,10 +35,12 @@ const styles = StyleSheet.create({
 	headline: {
 		fontSize: 35,
 		fontFamily: 'Helvetica-Bold',
+		lineHeight: 1,
 	},
 	role: {
 		fontSize: 20,
 		letterSpacing: 1,
+		lineHeight: 1,
 	},
 	profile: {
 		display: 'flex',

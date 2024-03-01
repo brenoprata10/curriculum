@@ -15,7 +15,7 @@ const PDFSection = ({withoutMargin, children}: {withoutMargin?: boolean; childre
 const styles = StyleSheet.create({
 	section: {
 		marginVertical: 15,
-		marginHorizontal: 40,
+		marginHorizontal: 30,
 	},
 })
 

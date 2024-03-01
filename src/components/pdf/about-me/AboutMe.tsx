@@ -1,11 +1,10 @@
-import {Text, StyleSheet, View, Image} from '@react-pdf/renderer'
+import {Text, View} from '@react-pdf/renderer'
 import PDFSection from '../../utils/PDFSection'
-import {CONTACT_CONFIG} from '../../main/contact/Contact'
 import PDFTitle from '../../utils/PDFTitle'
 
 const AboutMe = () => (
 	<PDFSection>
-		<View style={styles.about}>
+		<View>
 			<PDFTitle>About Me</PDFTitle>
 			<Text>
 				Software developer, following a path towards professional success, studious, dedicated and very demanding with
@@ -15,22 +14,4 @@ const AboutMe = () => (
 	</PDFSection>
 )
 
-const styles = StyleSheet.create({
-	role: {
-		fontSize: 20,
-		letterSpacing: 1,
-	},
-	about: {
-		marginTop: 20,
-	},
-})
-
 export default AboutMe
-
-/*
- *
-				<Text>{CONTACT_CONFIG.address}</Text>
-				<Text>{CONTACT_CONFIG.phoneNumber}</Text>
-				<Text>{CONTACT_CONFIG.email}</Text>
-				<Text>{CONTACT_CONFIG.linkedIn}</Text>
- */
