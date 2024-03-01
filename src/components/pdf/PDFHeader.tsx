@@ -3,6 +3,8 @@ import {Text, View, Image, StyleSheet} from '@react-pdf/renderer'
 import PROFILE_IMAGE from '../../public/images/profile-picture.png'
 import {PDF_THEME} from '../../utils/pdf-theme'
 
+export const PDF_HEADER_HEIGHT = 200
+
 const PDFHeader = () => {
 	return (
 		<PDFSection withoutMargin={true}>
@@ -25,10 +27,10 @@ const styles = StyleSheet.create({
 		color: PDF_THEME.secondaryColor,
 		backgroundColor: PDF_THEME.primaryColor,
 		width: '100%',
-		padding: 40,
-		paddingBottom: 10,
-		paddingLeft: 30,
 		gap: 65,
+		height: PDF_HEADER_HEIGHT,
+		paddingLeft: 30,
+		paddingTop: 28,
 	},
 	headline: {
 		fontSize: 35,
