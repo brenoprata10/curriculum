@@ -17,8 +17,8 @@ const CurriculumPDF = () => (
 			<View style={styles.container}>
 				<View style={styles.leftContainer}>
 					<Contact />
-					<Abilities />
 					<Education />
+					<Abilities />
 				</View>
 				<View style={styles.rightContainer}>
 					<AboutMe />

@@ -4,7 +4,7 @@ const PDFSection = ({withoutMargin, children}: {withoutMargin?: boolean; childre
 	<View
 		style={{
 			...styles.section,
-			marginVertical: withoutMargin ? 0 : styles.section.marginVertical,
+			marginTop: withoutMargin ? 0 : styles.section.marginTop,
 			marginHorizontal: withoutMargin ? 0 : styles.section.marginHorizontal,
 		}}
 	>
@@ -14,7 +14,7 @@ const PDFSection = ({withoutMargin, children}: {withoutMargin?: boolean; childre
 
 const styles = StyleSheet.create({
 	section: {
-		marginVertical: 15,
+		marginTop: 15,
 		marginHorizontal: 30,
 	},
 })

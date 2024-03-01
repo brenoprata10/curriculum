@@ -11,7 +11,6 @@ import REACT_BADGE from '../../../public/images/badges/front-end/react-badge.svg
 import ELECTRON_BADGE from '../../../public/images/badges/front-end/electron-badge.svg'
 import ANGULAR_BADGE from '../../../public/images/badges/front-end/angular-badge.svg'
 import TYPESCRIPT_BADGE from '../../../public/images/badges/front-end/typescript-badge.svg'
-import SWIFT_BADGE from '../../../public/images/badges/front-end/swift-badge.svg'
 import REDUX_BADGE from '../../../public/images/badges/front-end/redux-badge.svg'
 import NEXT_JS_BADGE from '../../../public/images/badges/front-end/next-js-badge.svg'
 
@@ -32,14 +31,14 @@ import CYPRESS_BADGE from '../../../public/images/badges/testing/cypress.svg'
 import FIGMA_BADGE from '../../../public/images/badges/design/figma.svg'
 import ADOBE_BADGE from '../../../public/images/badges/design/adobe-xd.svg'
 
-enum EQualificationSection {
+export enum EQualificationSection {
 	FRONT_END = 'Front-end',
 	BACK_END = 'Back-end',
 	TESTING = 'Testing',
 	DESIGN = 'Design',
 }
 
-const QUALIFICATION_CONFIG: {
+export const QUALIFICATION_CONFIG: {
 	[section in EQualificationSection]: {badges: IBadge[]}
 } = {
 	[EQualificationSection.FRONT_END]: {
@@ -53,7 +52,6 @@ const QUALIFICATION_CONFIG: {
 			{path: REDUX_BADGE, name: 'Redux'},
 			{path: ELECTRON_BADGE, name: 'Electron'},
 			{path: ANGULAR_BADGE, name: 'Angular'},
-			{path: SWIFT_BADGE, name: 'Swift'},
 			{path: STYLUS_BADGE, name: 'Stylus'},
 			{path: SASS_BADGE, name: 'SASS'},
 		],
