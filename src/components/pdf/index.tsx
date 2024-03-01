@@ -1,27 +1,22 @@
-import React from 'react'
-import {Page, Text, View, Document, StyleSheet} from '@react-pdf/renderer'
+import {Page, Document, StyleSheet} from '@react-pdf/renderer'
 import AboutMe from './about-me/AboutMe'
+import WorkExperience from './work-experience/WorkExperience'
 
-// Create styles
 const styles = StyleSheet.create({
 	page: {
-		flexDirection: 'row',
-		backgroundColor: '#E4E4E4',
-	},
-	section: {
-		margin: 10,
-		padding: 10,
-		flexGrow: 1,
+		fontFamily: 'Helvetica',
+		fontSize: 13,
+		justifyContent: 'flex-start',
 	},
 })
 
-// Create Document Component
-const MyDocument = () => (
+const CurriculumPDF = () => (
 	<Document>
 		<Page size='A4' style={styles.page}>
 			<AboutMe />
+			<WorkExperience />
 		</Page>
 	</Document>
 )
 
-export default MyDocument
+export default CurriculumPDF

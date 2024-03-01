@@ -28,7 +28,7 @@ export const ProjectItem = ({
 		}
 
 		if (githubRepositoryName) {
-			loadGithubStarCount()
+			//loadGithubStarCount()
 		}
 	}, [githubRepositoryName])
 

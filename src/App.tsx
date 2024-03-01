@@ -5,14 +5,14 @@ import * as PARTICLES_OPTIONS from './public/particles.json'
 import {Main} from './components/main/Main'
 import {Footer} from './components/Footer'
 import {PDFDownloadLink} from '@react-pdf/renderer'
-import MyDocument from './components/pdf'
+import CurriculumPDF from './components/pdf'
 
 const App = () => {
 	return (
 		<>
 			<Header />
 			<div className={'content'}>
-				<PDFDownloadLink document={<MyDocument />} fileName='somename.pdf'>
+				<PDFDownloadLink document={<CurriculumPDF />} fileName='somename.pdf'>
 					{({blob, url, loading, error}) => (loading ? 'Loading document...' : 'Download now!')}
 				</PDFDownloadLink>
 				<Main />
