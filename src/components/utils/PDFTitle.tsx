@@ -1,12 +1,30 @@
-import {Text, StyleSheet} from '@react-pdf/renderer'
+import {Text, StyleSheet, View} from '@react-pdf/renderer'
+import {PDF_THEME} from '../../utils/pdf-theme'
 
-const PDFTitle = ({children}: {children: React.ReactNode}) => <Text style={styles.title}>{children}</Text>
+const PDFTitle = ({children}: {children: React.ReactNode}) => (
+	<View style={styles.container}>
+		<Text style={styles.title}>{children}</Text>
+		<View style={styles.bottomBorder}>&nbsp;</View>
+	</View>
+)
 
 const styles = StyleSheet.create({
-	title: {
-		fontSize: 18,
-		fontWeight: 'bold',
+	container: {
 		paddingVertical: 10,
+		display: 'flex',
+		gap: 8,
+	},
+	title: {
+		fontSize: 12,
+		fontFamily: 'Helvetica-Bold',
+		textTransform: 'uppercase',
+		letterSpacing: 3,
+		color: PDF_THEME.secondaryColor,
+	},
+	bottomBorder: {
+		width: 50,
+		height: 3,
+		backgroundColor: PDF_THEME.secondaryColor,
 	},
 })
 
