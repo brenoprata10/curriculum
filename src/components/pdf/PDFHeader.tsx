@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
 		color: PDF_THEME.secondaryColor,
 		backgroundColor: PDF_THEME.primaryColor,
 		width: '100%',
-		gap: 65,
+		gap: 58,
 		height: PDF_HEADER_HEIGHT,
 		paddingLeft: 30,
 		paddingTop: 28,

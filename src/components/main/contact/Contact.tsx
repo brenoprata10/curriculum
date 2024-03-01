@@ -8,8 +8,9 @@ export const EMAIL = 'brenoprata@hotmail.com'
 export const CONTACT_CONFIG = {
 	email: 'brenoprata@hotmail.com',
 	linkedIn: 'https://www.linkedin.com/in/breno-prata-355352118/',
+	github: 'https://github.com/brenoprata10',
 	phoneNumber: '+49 1590 1384025',
-	address: 'Stolzestraße 1, 30171 Hannover, Germany',
+	address: 'Hannover, Germany',
 }
 
 export const Contact = () => (

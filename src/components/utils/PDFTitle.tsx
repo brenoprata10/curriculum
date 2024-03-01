@@ -10,7 +10,7 @@ const PDFTitle = ({children}: {children: React.ReactNode}) => (
 
 const styles = StyleSheet.create({
 	container: {
-		paddingVertical: 10,
+		paddingVertical: 14,
 		display: 'flex',
 		gap: 8,
 	},
@@ -20,6 +20,7 @@ const styles = StyleSheet.create({
 		textTransform: 'uppercase',
 		letterSpacing: 3,
 		color: PDF_THEME.secondaryColor,
+		lineHeight: 1,
 	},
 	bottomBorder: {
 		width: 50,
