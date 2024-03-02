@@ -8,7 +8,7 @@ const WorkExperience = () => (
 		<PDFTitle>Work Experience</PDFTitle>
 		<View style={styles.container}>
 			{JOURNEY_LOG.map((company) => (
-				<View style={styles.company}>
+				<View key={company.id} style={styles.company}>
 					<Image src={company.image} style={styles.logo} />
 					<View style={styles.companyDescription}>
 						<Text>{company.name}</Text>

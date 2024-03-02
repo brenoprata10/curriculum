@@ -8,7 +8,7 @@ const Abilities = ({title, badges, minHeight}: {title: string; badges: IBadge[];
 		<PDFSection>
 			<PDFTitle>{title}</PDFTitle>
 			{badges.map((badge) => (
-				<Text>- {badge.name}</Text>
+				<Text key={badge.path}>- {badge.name}</Text>
 			))}
 		</PDFSection>
 	</View>

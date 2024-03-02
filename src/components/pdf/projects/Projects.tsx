@@ -10,7 +10,7 @@ const Projects = () => {
 			<PDFTitle>Personal Projects</PDFTitle>
 			<View style={styles.listContainer}>
 				{PROJECTS.map((project) => (
-					<View>
+					<View key={project.id}>
 						<Link src={project.url} style={styles.name}>
 							{project.name}:
 						</Link>
