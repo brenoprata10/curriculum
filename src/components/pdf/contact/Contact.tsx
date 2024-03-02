@@ -1,4 +1,4 @@
-import {Text, View, Image, StyleSheet, Link} from '@react-pdf/renderer'
+import {Text, StyleSheet, Link} from '@react-pdf/renderer'
 import {CONTACT_CONFIG} from '../../main/contact/Contact'
 import PDFSection from '../../utils/PDFSection'
 import PDFTitle from '../../utils/PDFTitle'
