@@ -1,10 +1,12 @@
-import {Page, Document, StyleSheet, View} from '@react-pdf/renderer'
+import {Document, Page, StyleSheet, View} from '@react-pdf/renderer'
 import {PDF_THEME} from '../../utils/pdf-theme'
+import {EQualificationSection, QUALIFICATION_CONFIG} from '../main/qualification/Qualification'
 import Abilities from './abilities/Abilities'
 import AboutMe from './about-me/AboutMe'
 import Contact from './contact/Contact'
 import Education from './education/Education'
 import PDFHeader, {PDF_HEADER_HEIGHT} from './PDFHeader'
+import Projects from './projects/Projects'
 import WorkExperience from './work-experience/WorkExperience'
 
 const LEFT_CONTAINER_WIDTH = 35
@@ -18,11 +20,15 @@ const CurriculumPDF = () => (
 				<View style={styles.leftContainer}>
 					<Contact />
 					<Education />
-					<Abilities />
+					<Abilities title={'Front-end Tech'} badges={QUALIFICATION_CONFIG[EQualificationSection.FRONT_END].badges} />
+					<Abilities title={'Design Tech'} badges={QUALIFICATION_CONFIG[EQualificationSection.DESIGN].badges} />
+					<Abilities title={'Testing Tech'} badges={QUALIFICATION_CONFIG[EQualificationSection.TESTING].badges} />
+					<Abilities title={'Back-end Tech'} badges={QUALIFICATION_CONFIG[EQualificationSection.BACK_END].badges} />
 				</View>
 				<View style={styles.rightContainer}>
 					<AboutMe />
 					<WorkExperience />
+					<Projects />
 				</View>
 			</View>
 		</Page>
@@ -45,7 +51,7 @@ const styles = StyleSheet.create({
 	leftContainer: {
 		width: `${LEFT_CONTAINER_WIDTH}%`,
 		backgroundColor: PDF_THEME.ternaryColor,
-		height: PAGE_HEIGHT - PDF_HEADER_HEIGHT,
+		height: '100vh',
 	},
 	rightContainer: {
 		width: `${100 - LEFT_CONTAINER_WIDTH}%`,

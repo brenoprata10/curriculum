@@ -7,7 +7,7 @@ const AboutMe = () => (
 		<View>
 			<PDFTitle>About Me</PDFTitle>
 			<Text>
-				Software developer, following a path towards professional success, studious, dedicated and very demanding with
+				Software Engineer, following a path towards professional success, studious, dedicated and very demanding with
 				myself. I love studying new technologies and I will always accept a good challenge!
 			</Text>
 		</View>

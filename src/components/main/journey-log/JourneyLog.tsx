@@ -17,7 +17,7 @@ export interface IJourneyLogItemProps {
 	ringConfig?: CSSProperties
 }
 
-const JOURNEY_LOG: IJourneyLogItemProps[] = [
+export const JOURNEY_LOG: IJourneyLogItemProps[] = [
 	{
 		id: 'esl',
 		name: 'ESL Gaming',

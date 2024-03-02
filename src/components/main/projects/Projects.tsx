@@ -33,7 +33,7 @@ export interface IProjectItemProps {
 	goToCallback?: () => void
 }
 
-const PROJECTS: IProjectItemProps[] = [
+export const PROJECTS: IProjectItemProps[] = [
 	{
 		id: 'nvim-highlight-colors',
 		name: 'Nvim Highlight Colors Plugin',

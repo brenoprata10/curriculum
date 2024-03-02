@@ -1,12 +1,12 @@
 import {Text} from '@react-pdf/renderer'
-import {EQualificationSection, QUALIFICATION_CONFIG} from '../../main/qualification/Qualification'
+import {IBadge} from '../../main/qualification/QualificationSection'
 import PDFSection from '../../utils/PDFSection'
 import PDFTitle from '../../utils/PDFTitle'
 
-const Abilities = () => (
+const Abilities = ({title, badges}: {title: string; badges: IBadge[]}) => (
 	<PDFSection>
-		<PDFTitle>Tech</PDFTitle>
-		{QUALIFICATION_CONFIG[EQualificationSection.FRONT_END].badges.map((badge) => (
+		<PDFTitle>{title}</PDFTitle>
+		{badges.map((badge) => (
 			<Text>- {badge.name}</Text>
 		))}
 	</PDFSection>
