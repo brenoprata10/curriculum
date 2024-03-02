@@ -25,6 +25,7 @@ const styles = StyleSheet.create({
 	container: {
 		display: 'flex',
 		gap: 20,
+		minHeight: 430,
 	},
 	company: {
 		display: 'flex',

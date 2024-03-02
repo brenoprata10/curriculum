@@ -15,7 +15,7 @@ export const ProjectItem = ({
 	badges,
 	ribbon,
 	githubRepositoryName,
-	goToCallback,
+	url,
 }: IProjectItemProps) => {
 	const [githubStarCount, setGithubStarCount] = useState<number | undefined>()
 
@@ -28,7 +28,7 @@ export const ProjectItem = ({
 		}
 
 		if (githubRepositoryName) {
-			//loadGithubStarCount()
+			loadGithubStarCount()
 		}
 	}, [githubRepositoryName])
 
@@ -43,7 +43,14 @@ export const ProjectItem = ({
 					</div>
 				</div>
 			)}
-			{ribbon && <img src={ribbon} className={'ribbon'} alt={'external-link-ribbon'} onClick={goToCallback} />}
+			{ribbon && (
+				<img
+					src={ribbon}
+					className={'ribbon'}
+					alt={'external-link-ribbon'}
+					onClick={() => window.open(url, '_newtab')}
+				/>
+			)}
 			<div className={'image-data-container'}>
 				<img src={image} alt={name} />
 				<div className={'description-wrapper'}>

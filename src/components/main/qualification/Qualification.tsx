@@ -58,10 +58,10 @@ export const QUALIFICATION_CONFIG: {
 	},
 	[EQualificationSection.BACK_END]: {
 		badges: [
-			{path: JAVA_BADGE, name: 'JAVA'},
-			{path: KOTLIN_BADGE, name: 'Kotlin'},
 			{path: NODE_BADGE, name: 'Node JS'},
 			{path: LUA_BADGE, name: 'Lua'},
+			{path: JAVA_BADGE, name: 'JAVA'},
+			{path: KOTLIN_BADGE, name: 'Kotlin'},
 			{path: SPRING_BADGE, name: 'Spring Boot'},
 			{path: JWT_BADGE, name: 'JWT Tokens'},
 			{path: POSTGRES_BADGE, name: 'PostgreSQL'},

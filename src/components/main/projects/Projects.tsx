@@ -30,7 +30,7 @@ export interface IProjectItemProps {
 	image: string
 	githubRepositoryName?: string
 	ribbon?: string
-	goToCallback?: () => void
+	url?: string
 }
 
 export const PROJECTS: IProjectItemProps[] = [
@@ -42,7 +42,7 @@ export const PROJECTS: IProjectItemProps[] = [
 		badges: [{path: LUA_BADGE, name: 'Lua'}],
 		image: NEOVIM_LOGO,
 		ribbon: GITHUB_IMAGE,
-		goToCallback: () => window.open('https://github.com/brenoprata10/nvim-highlight-colors', '_newtab'),
+		url: 'https://github.com/brenoprata10/nvim-highlight-colors',
 	},
 	{
 		id: 'steam-deck-romate',
@@ -57,7 +57,7 @@ export const PROJECTS: IProjectItemProps[] = [
 		],
 		image: STEAM_DECK,
 		ribbon: GITHUB_IMAGE,
-		goToCallback: () => window.open('https://github.com/brenoprata10/steam-deck-romate', '_newtab'),
+		url: 'https://github.com/brenoprata10/steam-deck-romate',
 	},
 	{
 		id: 'ibge-sql',
@@ -72,7 +72,7 @@ export const PROJECTS: IProjectItemProps[] = [
 		],
 		image: BRASIL_IMAGE,
 		ribbon: GITHUB_IMAGE,
-		goToCallback: () => window.open('https://github.com/brenoprata10/ibge-sql', '_newtab'),
+		url: 'https://github.com/brenoprata10/ibge-sql',
 	},
 	{
 		id: 'adlass',
@@ -85,7 +85,7 @@ export const PROJECTS: IProjectItemProps[] = [
 		],
 		image: VERCEL,
 		ribbon: EXTERNAL_LINK_IMAGE,
-		goToCallback: () => window.open('https://adlass.vercel.app', '_newtab'),
+		url: 'https://adlass.vercel.app',
 	},
 	{
 		id: 'steam-wishlist',
@@ -95,7 +95,7 @@ export const PROJECTS: IProjectItemProps[] = [
 		badges: [{path: JAVASCRIPT_BADGE, name: 'Javascript'}],
 		image: SCRIPTABLE_IMAGE,
 		ribbon: EXTERNAL_LINK_IMAGE,
-		goToCallback: () => window.open('https://twitter.com/BrenoXDDD/status/1358729670221561856', '_newtab'),
+		url: 'https://twitter.com/BrenoXDDD/status/1358729670221561856',
 	},
 	{
 		id: 'twitter-search-api',
@@ -110,7 +110,7 @@ export const PROJECTS: IProjectItemProps[] = [
 		],
 		image: TWITTER_IMAGE,
 		ribbon: GITHUB_IMAGE,
-		goToCallback: () => window.open('https://github.com/brenoprata10/roi-task', '_newtab'),
+		url: 'https://github.com/brenoprata10/roi-task',
 	},
 	{
 		id: 'well-played',
@@ -123,8 +123,7 @@ export const PROJECTS: IProjectItemProps[] = [
 		],
 		image: WISHY_IMAGE,
 		ribbon: EXTERNAL_LINK_IMAGE,
-		goToCallback: () =>
-			window.open('https://play.google.com/store/apps/details?id=com.brenoprata.GameQuest', '_newtab'),
+		url: 'https://play.google.com/store/apps/details?id=com.brenoprata.GameQuest',
 	},
 ]
 

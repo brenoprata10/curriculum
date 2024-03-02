@@ -1,7 +1,9 @@
 import {Section} from '../../utils/Section'
-import {faPhoneAlt} from '@fortawesome/free-solid-svg-icons'
+import {faDownload, faPhoneAlt} from '@fortawesome/free-solid-svg-icons'
 import {faLinkedin} from '@fortawesome/free-brands-svg-icons'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {PDFDownloadLink} from '@react-pdf/renderer'
+import CurriculumPDF from '../../pdf'
 
 export const EMAIL = 'brenoprata@hotmail.com'
 
@@ -15,6 +17,21 @@ export const CONTACT_CONFIG = {
 
 export const Contact = () => (
 	<Section wrapperClassName={'contact'} title={'Contact'} icon={faPhoneAlt}>
+		<div className={'section'}>
+			<b className={'section-title'}>PDF Curriculum</b>
+			<PDFDownloadLink document={<CurriculumPDF />} fileName='Breno Prata - Curriculum.pdf'>
+				{({blob, url, loading, error}) =>
+					loading ? (
+						'Loading document...'
+					) : (
+						<div>
+							<FontAwesomeIcon icon={faDownload} onClick={() => window.open(CONTACT_CONFIG.linkedIn, '_newtab')} />
+							&nbsp; Download PDF
+						</div>
+					)
+				}
+			</PDFDownloadLink>
+		</div>
 		<div className={'section'}>
 			<b className={'section-title'}>Social Media</b>
 			<FontAwesomeIcon size={'4x'} icon={faLinkedin} onClick={() => window.open(CONTACT_CONFIG.linkedIn, '_newtab')} />
