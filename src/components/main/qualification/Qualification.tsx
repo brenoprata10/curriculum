@@ -16,6 +16,7 @@ import NEXT_JS_BADGE from '../../../public/images/badges/front-end/next-js-badge
 
 //Back-end badges
 import JAVA_BADGE from '../../../public/images/badges/back-end/java-badge.svg'
+import RUST_BADGE from '../../../public/images/badges/back-end/rust-badge.svg'
 import KOTLIN_BADGE from '../../../public/images/badges/back-end/kotlin-badge.svg'
 import NODE_BADGE from '../../../public/images/badges/back-end/nodejs-badge.svg'
 import SPRING_BADGE from '../../../public/images/badges/back-end/springboot-badge.svg'
@@ -60,6 +61,7 @@ export const QUALIFICATION_CONFIG: {
 		badges: [
 			{path: NODE_BADGE, name: 'Node JS'},
 			{path: LUA_BADGE, name: 'Lua'},
+			{path: RUST_BADGE, name: 'Rust'},
 			{path: JAVA_BADGE, name: 'JAVA'},
 			{path: KOTLIN_BADGE, name: 'Kotlin'},
 			{path: SPRING_BADGE, name: 'Spring Boot'},

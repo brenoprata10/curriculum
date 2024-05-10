@@ -15,12 +15,14 @@ import LUA_BADGE from '../../../public/images/badges/back-end/lua-badge.svg'
 import BRASIL_IMAGE from '../../../public/images/projects/brasil.svg'
 import TWITTER_IMAGE from '../../../public/images/projects/twitter.svg'
 import WISHY_IMAGE from '../../../public/images/projects/wishy.svg'
+import TERMINAL_IMAGE from '../../../public/images/projects/terminal.svg'
 import SCRIPTABLE_IMAGE from '../../../public/images/projects/scriptable.svg'
 import GITHUB_IMAGE from '../../../public/images/projects/github-ribbon.svg'
 import EXTERNAL_LINK_IMAGE from '../../../public/images/projects/external-link-ribbon.svg'
 import NEOVIM_LOGO from '../../../public/images/projects/neovim-logo.svg'
 import STEAM_DECK from '../../../public/images/projects/steam-deck.svg'
 import VERCEL from '../../../public/images/projects/vercel.svg'
+import RUST_BADGE from '../../../public/images/badges/back-end/rust-badge.svg'
 
 export interface IProjectItemProps {
 	id: string
@@ -58,6 +60,16 @@ export const PROJECTS: IProjectItemProps[] = [
 		image: STEAM_DECK,
 		ribbon: GITHUB_IMAGE,
 		url: 'https://github.com/brenoprata10/steam-deck-romate',
+	},
+	{
+		id: 'easy-config',
+		name: 'Easy Config',
+		githubRepositoryName: 'easy-config',
+		description: 'A glorified multi-thread shell executor',
+		badges: [{path: RUST_BADGE, name: 'Rust'}],
+		image: TERMINAL_IMAGE,
+		ribbon: GITHUB_IMAGE,
+		url: 'https://github.com/brenoprata10/easy-config',
 	},
 	{
 		id: 'ibge-sql',
