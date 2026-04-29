@@ -6,6 +6,7 @@ import BASIS_LOGO from '../../../public/images/companies/basis-logo.png'
 import INDRA_LOGO from '../../../public/images/companies/indra-logo.png'
 import POLISYS_LOGO from '../../../public/images/companies/polisys-logo.png'
 import ESL_LOGO from '../../../public/images/companies/esl-logo.png'
+import NOXTUA_LOGO from '../../../public/images/companies/noxtua-logo.png'
 import {Section} from '../../utils/Section'
 
 export interface IJourneyLogItemProps {
@@ -19,10 +20,18 @@ export interface IJourneyLogItemProps {
 
 export const JOURNEY_LOG: IJourneyLogItemProps[] = [
 	{
+		id: 'noxtua',
+		name: 'Noxtua',
+		role: 'Senior Fullstack React Engineer',
+		date: '🚀 Docked - October 2025',
+		image: NOXTUA_LOGO,
+		ringConfig: {borderColor: '#200e21'},
+	},
+	{
 		id: 'esl',
 		name: 'ESL Gaming',
 		role: 'Senior Software Engineer',
-		date: '🚀 Docked - March 2023',
+		date: 'September 2025 - March 2023',
 		image: ESL_LOGO,
 		ringConfig: {borderColor: 'yellow'},
 	},

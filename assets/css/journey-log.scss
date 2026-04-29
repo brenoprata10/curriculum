@@ -69,6 +69,19 @@
 					border-radius: 50%;
 					transform: rotate3d(1, 1, 1, 200deg);
 
+					&-noxtua {
+						animation: planet-rings-noxtua 400s infinite linear;
+						@keyframes planet-rings-noxtua {
+							0%,
+							100% {
+								transform: rotate3d(59, 26, 10, 0deg);
+							}
+							50% {
+								transform: rotate3d(5, 306, 36, $end-rotation);
+							}
+						}
+					}
+
 					&-esl {
 						animation: planet-rings-esl 400s infinite linear;
 						@keyframes planet-rings-esl {
